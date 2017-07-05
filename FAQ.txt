@@ -1,0 +1,23 @@
+Welcome to the OPT Frequently Asked Questions list.
+If you can't find the answer to your problem here then
+feel free to post your KSP.log into the thread on the forums
+and detail the issue you are having.
+
+NO LOG - NO HELP
+
+
+1) Holy crap these parts are awesome but they have no fuel?!
+	A) Ensure your Firespitter is up to date
+	
+2) So I installed the mod and the parts have no fuel!
+	A) Yet again, make sure your firespitter is up to date.
+	
+3) I installed Version X of the mod from spacedock, it has Firespitter but I have no fuel!
+	A) There is the chance that the version on spacedock has a version of Firespitter that is
+	for a previous version of KSP. The bundled Firespitter is ALWAYS the latest version at release
+	of the mod.  So once again, make sure firespitter is up to date.
+	
+4) Can you add 'X idea for part?'
+	A) feel free to make requests, and once K.Yeon resumes active development we will forward the 
+	suggestions on to him, if simple enough we may be able to make them before then.
+	

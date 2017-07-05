@@ -1,0 +1,52 @@
+OPT Legacy Spaceplane Parts
+
+1.0.7
+
+* Fixed Stail JSL cockpit cew capacity 2 (down from 5)
+* Fixed Stail Lab crew capacity 2 (down from 4)
+* Added SAGE and SURGE Enginges (Jadeofmaar)
+* Added K SAS units (Jadeofmaar)
+
+1.0.6
+
+* Added J60D Hybrid Screamjet - thanks to sebi.zzr
+* Fixed joystick prop path error
+
+1.0.5
+
+* Added J-OMS
+* Added J-Drone Core With OMS
+* Set all J & K Parts to be hidden unless OPT installed.
+* Corrected Juno cockpit bulkhead profile from J to OPTJ
+* Corrected KTAV Custom bulkhead profile from K to OPTK
+* Corrected KTAV bulkhead profile from K to OPTK
+* Restored Humpback Crew Fuel config
+
+1.0.3
+
+* Updated Legacy Pack License
+* Removed redundant text files
+* Removed OPT Main mod License
+* Removed OPT Main mod changelog
+
+1.0.2
+
+* Fixed Moobien's ships (I think for sure this time)
+* Restored some old OPT wings
+* Fixed Science Transmission issue.
+
+1.0.1
+
+* Juno and Kraken Parts adjusted to bring in line with main mod
+* Removed unused textures/parts
+
+
+1.0
+
+* Removed cockpits that have had texture updates in OPT Main 1.9
+* Removed All Juno parts except for the 7m Cockpit
+* Removed Engines present in OPT Main 1.9
+* Created new .version file for OPT Legacy
+* Renamed OPT folder to OPT_Legacy and updated cfg paths
+* Removed IVA present in OPT Main
+* Removed unused textures/parts
