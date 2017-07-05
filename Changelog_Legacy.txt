@@ -1,11 +1,19 @@
 OPT Legacy Spaceplane Parts
 
+1.0.7.1
+
+* Added/updated descriptions for some parts
+* Added all cockpit and cabin lights to Light action group
+* Fixed duplicate fuel switch options problem
+* Removed fuel tankage from science lab(s)
+* Increased IntakeAir amount in all cockpits and added IntakeAtm (only appears when CommunityResourcePack installed)
+
 1.0.7
 
 * Fixed Stail JSL cockpit cew capacity 2 (down from 5)
 * Fixed Stail Lab crew capacity 2 (down from 4)
-* Added SAGE and SURGE Enginges (Jadeofmaar)
-* Added K, KH, Humpback OMS units (Jadeofmaar)
+* Added SAGE and SURGE Enginges (JadeofMaar)
+* Added K, KH, Humpback OMS units (JadeofMaar)
 
 1.0.6
 
