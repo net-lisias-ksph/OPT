@@ -5,7 +5,7 @@ OPT Legacy Spaceplane Parts
 * Fixed Stail JSL cockpit cew capacity 2 (down from 5)
 * Fixed Stail Lab crew capacity 2 (down from 4)
 * Added SAGE and SURGE Enginges (Jadeofmaar)
-* Added K SAS units (Jadeofmaar)
+* Added K, KH, Humpback OMS units (Jadeofmaar)
 
 1.0.6
 
