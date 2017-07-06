@@ -3,6 +3,8 @@ OPT Legacy Spaceplane Parts
 1.0.8
 
 *Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
+* Both Stail - 2.5m Adaptors fixed (stealth skin)
+* Stail Bicoupler fixed (Stealth skin)
 
 1.0.7
 
