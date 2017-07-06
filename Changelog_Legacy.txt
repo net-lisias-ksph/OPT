@@ -35,6 +35,7 @@ OPT Legacy Spaceplane Parts
 * Door on the 6m Cockpit
 * Both Stail - 2.5m Adaptors not changing
 * Stail Bicoupler not changing
+* OMS units have no RCS/OMS thrust currently
 
 1.0.6
 
