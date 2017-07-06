@@ -1,7 +1,12 @@
 OPT Legacy Spaceplane Parts
 
-1.0.7.1
 
+1.0.7
+
+* Fixed Stail JSL cockpit cew capacity 2 (down from 5)
+* Fixed Stail Lab crew capacity 2 (down from 4)
+* Added SAGE and SURGE Enginges (JadeofMaar)
+* Added K, KH, Humpback OMS units (JadeofMaar)
 * Added/updated descriptions for some parts
 * Added all cockpit and cabin lights to Light action group
 * Fixed duplicate fuel switch options problem
@@ -10,13 +15,27 @@ OPT Legacy Spaceplane Parts
 * Fixed all remaining bulkhead profiles, reversion to J and K from OPTJ and OPTK to sync with OPT Main
 * Made proper texture for J60D Hybrid Screamjet (JadeofMaar)
 * Raised joint strength of Humpback parts
+* Incorporated Stealth Textures via FSTexture Switch
+* Stail Aerospike
+* Stail - Avatar Adapters (both)
+* Stail Drone Core
+* Stail - 2.5m Adaptors (Broken)
+* Stail BiCoupler (Broken)
+* Stail QS Cockpit
+* Stail Engine Mount
+* Stail 6 & 7m Cockpits.
+* Stail Lab
+* Stail Fuel Tank
+* Stail Tail
+* Stail Mk2 Adaptor
+* Legacy Pack Wings
 
-1.0.7
+** Known Issues
 
-* Fixed Stail JSL cockpit cew capacity 2 (down from 5)
-* Fixed Stail Lab crew capacity 2 (down from 4)
-* Added SAGE and SURGE Enginges (JadeofMaar)
-* Added K, KH, Humpback OMS units (JadeofMaar)
+* Door on the 6m Cockpit
+* Both Stail - 2.5m Adaptors not changing
+* Stail Bicoupler not changing
+* OMS units have no RCS/OMS thrust currently
 
 1.0.6
 
