@@ -1,5 +1,8 @@
 OPT Legacy Spaceplane Parts
 
+1.0.8
+
+*Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
 
 1.0.7
 
