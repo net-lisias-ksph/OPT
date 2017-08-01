@@ -2,9 +2,13 @@ OPT Legacy Spaceplane Parts
 
 1.0.8
 
-*Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
+* Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
 * Both Stail - 2.5m Adaptors fixed (stealth skin)
 * Stail Bicoupler fixed (Stealth skin)
+* Total overhaul of ARI-73 engine
+* Added eye candy particles to SAGE, SURGE, ARI-73, J-60D engines
+* Renamed K, KH, Humpabk OMS to SAS and added fuel switching to complement OPT Main RCS
+* Moved some engines in tech trees as follow-up to OPT Main engines moving
 
 1.0.7
 
