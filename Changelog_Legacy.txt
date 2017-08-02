@@ -25,19 +25,19 @@ OPT Legacy Spaceplane Parts
 * Made proper texture for J60D Hybrid Screamjet (JadeofMaar)
 * Raised joint strength of Humpback parts
 * Incorporated Stealth Textures via FSTexture Switch
-* Stail Aerospike
-* Stail - Avatar Adapters (both)
-* Stail Drone Core
-* Stail - 2.5m Adaptors (Broken)
-* Stail BiCoupler (Broken)
-* Stail QS Cockpit
-* Stail Engine Mount
-* Stail 6 & 7m Cockpits.
-* Stail Lab
-* Stail Fuel Tank
-* Stail Tail
-* Stail Mk2 Adaptor
-* Legacy Pack Wings
+	* Stail Aerospike
+	* Stail - Avatar Adapters (both)
+	* Stail Drone Core
+	* Stail - 2.5m Adaptors (Broken)
+	* Stail BiCoupler (Broken)
+	* Stail QS Cockpit
+	* Stail Engine Mount
+	* Stail 6 & 7m Cockpits.
+	* Stail Lab
+	* Stail Fuel Tank
+	* Stail Tail
+	* Stail Mk2 Adaptor
+	* Legacy Pack Wings
 
 ** Known Issues
 
