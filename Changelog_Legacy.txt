@@ -6,6 +6,7 @@ OPT Legacy Spaceplane Parts
 * Both Stail - 2.5m Adaptors fixed (stealth skin)
 * Stail Bicoupler fixed (Stealth skin)
 * Redefined ARI-73 engine. It has a new description and consumes only LiquidFuel (JadeofMaar)
+* Added improved particles to SAGE, SURGE, ARI-73, J60D engines (JadeofMaar)
 * Renamed K, KH, Humpabk OMS to SAS and added fuel switching to complement OPT Main RCS (JadeofMaar)
 * Moved some engines in tech trees as follow-up to OPT Main engines moving (JadeofMaar)
 * Renamed all legacy engines to fit OPT-E name convention
