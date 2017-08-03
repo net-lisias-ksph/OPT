@@ -2,9 +2,14 @@ OPT Legacy Spaceplane Parts
 
 1.0.8
 
-*Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
+* Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
 * Both Stail - 2.5m Adaptors fixed (stealth skin)
 * Stail Bicoupler fixed (Stealth skin)
+* Redefined ARI-73 engine. It has a new description and consumes only LiquidFuel (JadeofMaar)
+* Added improved particles to SAGE, SURGE, ARI-73, J60D engines (JadeofMaar)
+* Renamed K, KH, Humpabk OMS to SAS and added fuel switching to complement OPT Main RCS (JadeofMaar)
+* Moved some engines in tech trees as follow-up to OPT Main engines moving (JadeofMaar)
+* Renamed all legacy engines to fit OPT-E name convention
 
 1.0.7
 
@@ -21,19 +26,19 @@ OPT Legacy Spaceplane Parts
 * Made proper texture for J60D Hybrid Screamjet (JadeofMaar)
 * Raised joint strength of Humpback parts
 * Incorporated Stealth Textures via FSTexture Switch
-* Stail Aerospike
-* Stail - Avatar Adapters (both)
-* Stail Drone Core
-* Stail - 2.5m Adaptors (Broken)
-* Stail BiCoupler (Broken)
-* Stail QS Cockpit
-* Stail Engine Mount
-* Stail 6 & 7m Cockpits.
-* Stail Lab
-* Stail Fuel Tank
-* Stail Tail
-* Stail Mk2 Adaptor
-* Legacy Pack Wings
+	* Stail Aerospike
+	* Stail - Avatar Adapters (both)
+	* Stail Drone Core
+	* Stail - 2.5m Adaptors (Broken)
+	* Stail BiCoupler (Broken)
+	* Stail QS Cockpit
+	* Stail Engine Mount
+	* Stail 6 & 7m Cockpits.
+	* Stail Lab
+	* Stail Fuel Tank
+	* Stail Tail
+	* Stail Mk2 Adaptor
+	* Legacy Pack Wings
 
 ** Known Issues
 
