@@ -11,7 +11,7 @@ OPT Legacy Spaceplane Parts
 * Moved some engines in tech trees as follow-up to OPT Main engines moving (JadeofMaar)
 * Renamed all legacy engines to fit OPT-E name convention
 * Renamed all legacy wings to fit OPT-W name convention
-* Restored lifting surface to legacy wings. Without this they have been nothing more than inflated heatshields
+* Restored lifting surface to legacy wings. Without this they have been as effective as inflated heatshields
 
 1.0.7
 
