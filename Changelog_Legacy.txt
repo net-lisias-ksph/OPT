@@ -5,13 +5,17 @@ OPT Legacy Spaceplane Parts
 * Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
 * Both Stail - 2.5m Adaptors fixed (stealth skin)
 * Stail Bicoupler fixed (Stealth skin)
-* Redefined ARI-73 engine. It has a new description and consumes only LiquidFuel (JadeofMaar)
-* Added improved particles and tweakscale to SAGE, SURGE, ARI-73, J60D engines (JadeofMaar)
+* Redefined ARI-73 engine. It has new description, new use cases, and consumes only LiquidFuel (JadeofMaar)
+* Added improved particles to SAGE, SURGE, ARI-73, J60D engines (JadeofMaar)
+* Added Tweakscale to SAGE, SURGE, ARI-73, J60D engines (JadeofMaar)
 * Renamed K, KH, Humpabk OMS to SAS and added fuel switching to complement OPT Main RCS (JadeofMaar)
 * Moved some engines in tech trees as follow-up to OPT Main engines moving (JadeofMaar)
-* Renamed all legacy engines to fit OPT-E name convention
-* Renamed all legacy wings to fit OPT-W name convention
-* Restored lifting surface to legacy wings. Without this they have been as effective as inflated heatshields
+* Renamed all Legacy engines to fit OPT-E name convention (JadeofMaar)
+* Renamed all Legacy wings to fit OPT-W name convention (JadeofMaar)
+* Added Tweakscale to all Legacy wings (JadeofMaar)
+* Restored lifting surface to Legacy wings and reduced drag effect on them (JadeofMaar)
+* Added gimbal (does not animate) to Main and Legacy aerospike engines (JadeofMaar)
+* Fixed drag problem on wings, reduced overall drag effect to 20% (JadeofMaar)
 
 1.0.7
 
