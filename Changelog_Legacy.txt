@@ -7,6 +7,9 @@ OPT Legacy Spaceplane Parts
 * Fixed Tweakscale and RemoteTech patches
 * Fixed cargo bay modules, removed aeroshield patch: the problem of reversed cargo module status
 * Further bulk update to all cargo bays and hollow fuselages: add/fix attach nodes, cargo modules, categories
+* Avatar parts:
+	* Added/fixed fuel switch for hollow fuselage and cargo bay
+	* Updated cockpit RCS
 
 1.0.8
 
