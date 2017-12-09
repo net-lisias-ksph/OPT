@@ -1,5 +1,9 @@
 OPT Legacy Spaceplane Parts
 
+1.10
+
+* Added VERNIER versions of the OMS pods
+
 1.0.9
 
 * Added inner attachment nodes for Humpback hollow fuselage
