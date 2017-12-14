@@ -3,6 +3,7 @@ OPT Legacy Spaceplane Parts
 1.10
 
 * Added VERNIER versions of the OMS pods
+* Fixed CCK support (untested)
 
 1.0.9
 
