@@ -4,6 +4,9 @@ OPT Legacy Spaceplane Parts
 
 * Added VERNIER versions of the OMS pods
 * Fixed CCK support (untested)
+* Added Tweakscale for all the surface-attached RCS
+* Retuned WarpJets and fixed Isp problem. SAGE is a little stronger now and doesn't flameout anymore in thick atmosphere.
+* Adjusted IntakeAtm patch
 
 1.0.9
 
