@@ -4,7 +4,7 @@ OPT Legacy Spaceplane Parts
 
 * Added VERNIER versions of the OMS pods
 * Fixed 
-  * CCK support (untested)
+  * CCK support
   * Manufacturer in blade antenna
   * bulkhead profile in J-81 engine, spotted by Kolago
   * Stail lab science cap, is 1050 now, not 500
