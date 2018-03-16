@@ -11,8 +11,13 @@ OPT Legacy Spaceplane Parts
 * Added Tweakscale for all the surface-attached RCS
 * Retuned WarpJets and fixed Isp problem. SAGE is a little stronger now and doesn't flameout anymore in thick atmosphere.
 * Adjusted IntakeAtm patch
-* Disabled Firespitter support
+* Added WBI PlayMode integration
+* Disabled old configs for Firespitter, TAC
 * Added B9 tank switching
+  * USI (absorbed OPT_USI patch)
+  * TAC
+  * Snacks (with collision prevention for OPT_WBI)
+* Added and revised K.Yeon's FAR patch
 
 1.0.9
 
