@@ -2,10 +2,10 @@ OPT Legacy Spaceplane Parts
 
 1.10
 
-* Added VERNIER versions of the OMS pods
+* Added LFO version of aerodynamic OMS blocks
 * Fixed 
   * CCK support
-  * Manufacturer in blade antenna
+  * Manufacturer in blade antenna and some tanks
   * bulkhead profile in J-81 engine, spotted by Kolago
   * Stail lab science cap, is 1050 now, not 500
 * Added Tweakscale for all the surface-attached RCS
