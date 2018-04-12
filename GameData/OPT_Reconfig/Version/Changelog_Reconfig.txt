@@ -11,6 +11,7 @@ OPT Reconfig
 * Configured main engines
   * J-92 Shcramjet nerfed and dual mode: tamed primary turbojet mode + EC-enhanced scramjet mode with no top speed limit
   * HAE-02 Turbojet nerfed
+  * J Linear Aerospike has better thrust, Isp and gets Pitch gimbal (does not animate)
   * ARI-75 engine EC-enhanced, grants higher vac Isp
   * Dark Drive now holds Dark Goo resource and needs recharging before any major burn; maximum dV limited by available Dark Goo
   * OPT labs now host Dark Science required for recharging Dark Drive
