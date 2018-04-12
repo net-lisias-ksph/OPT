@@ -1,6 +1,6 @@
 OPT Legacy Spaceplane Parts
 
-1.10
+1.1.0
 
 * Added LFO version of aerodynamic OMS blocks
 * Fixed 
@@ -10,14 +10,20 @@ OPT Legacy Spaceplane Parts
   * Stail lab science cap, is 1050 now, not 500
 * Added Tweakscale for all the surface-attached RCS
 * Retuned WarpJets and fixed Isp problem. SAGE is a little stronger now and doesn't flameout anymore in thick atmosphere.
-* Adjusted IntakeAtm patch
-* Added WBI PlayMode integration
-* Disabled old configs for Firespitter, TAC
-* Added B9 tank switching
-  * USI (absorbed OPT_USI patch)
-  * TAC
-  * Snacks (with collision prevention for OPT_WBI)
-* Added and revised K.Yeon's FAR patch
+
+* Configured engines:
+  * Adjusted particles for WarpJet SAGE, SURGE, J-61, J-81.
+  * Use cases
+    * J-61 is no longer as wasteful but is a dynamic scramjet now (endless acceleration with Isp falloff)
+    * J-60 is also a dynamic scramjet (endless acceleration with Isp falloff)
+    * J-60D requires EC in ClosedCycle, Isp lowered so the J-81 stands alone as highest Isp vac engine (like Dark Drive) but J-60D in closed cycle remains very powerful near sea-level in atmo
+    * J-81 requires EC in ClosedCycle and is poor near sea level, gets a boost at 0.3 atm pressure
+    * Stail Linear Aerospike has better thrust and Isp
+  * Gimbals
+    * J-81 visibly animates: given plenty Yaw authority and slight Pitch authority due to dual nozzle (emulate differential thrust)
+    * J-60 and J-60D same as J-81 but do not animate
+    * WarpJet SURGE given half gimbal ranges of J-60, J-60D
+    * Stail Linear Aerospike does not animate but is given plenty Pitch authority
 
 1.0.9
 
