@@ -1,0 +1,9 @@
+OPT Reconfig
+
+1.0.0
+
+* Migrated TechTree node and most configs from OPT Legacy
+* Produced rebalance config for OPT Main engines
+* Absorbed OPT_USI and OPT_WBI
+* Added FAR
+* Removed Firespitter config
