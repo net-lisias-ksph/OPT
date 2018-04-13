@@ -2,9 +2,10 @@ OPT Legacy Spaceplane Parts
 
 1.1.0
 
+* Added dependency/migrated most MM patches to --> OPT Reconfig mod
 * Added LFO version of aerodynamic OMS blocks
 * Fixed 
-  * CCK support
+  * CCK support (OPT category will show if OPT Legacy without OPT Main is installed)
   * Manufacturer in blade antenna and some tanks
   * bulkhead profile in J-81 engine, spotted by Kolago
   * Stail lab science cap, is 1050 now, not 500
@@ -12,7 +13,7 @@ OPT Legacy Spaceplane Parts
 * Replaced FS dependency in Stail docking and utility bay with stock module
 * Configured engines:
   * Retuned WarpJets and fixed Isp problem. SAGE is a little stronger now and will flameout at 9 atm, not 3 atm
-  * Adjusted particles for WarpJet SAGE, SURGE, J-61, J-81.
+  * Adjusted particles for all engines (again =D )
   * Use cases
     * J-61 is no longer as wasteful or wildly OP but is a dynamic scramjet now (endless acceleration with Isp falloff)
     * J-60 is also a dynamic scramjet (endless acceleration with Isp falloff)

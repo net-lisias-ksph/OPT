@@ -7,17 +7,16 @@ NO LOG - NO HELP
 
 
 1) Holy crap these parts are awesome but they have no fuel?!
-	A) Ensure your Firespitter is up to date
+	A) You do not have B9 Part Switch or Wild Blue Industries mods installed.
+	B) You do not have OPT Reconfig installed. Get it here: https://spacedock.info/mod/1808/OPT%20Reconfig
 	
-2) So I installed the mod and the parts have no fuel!
-	A) Yet again, make sure your firespitter is up to date.
+2) KSP hangs during startup when this mod is installed.
+	A) Some engines require a non-stock resource. Please install Community Resource Pack.
 	
-3) I installed Version X of the mod from spacedock, it has Firespitter but I have no fuel!
-	A) There is the chance that the version on spacedock has a version of Firespitter that is
-	for a previous version of KSP. The bundled Firespitter is ALWAYS the latest version at release
-	of the mod.  So once again, make sure firespitter is up to date.
+3) You don't use Firespitter anymore?
+	A) Firespitter is an old, messy mod and requires too much effort to add tank options for. B9 Part Switch is a very small mod; very popular; and very easy to add tank options with.
 	
-4) Can you add 'X idea for part?'
-	A) feel free to make requests, and once K.Yeon resumes active development we will forward the 
-	suggestions on to him, if simple enough we may be able to make them before then.
+4) Can you add 'X new part'?
+	A) feel free to make requests but no one is available who is interested in making all-new parts. Sorry.
+	B) Some parts like an H cockpit are or were meant not to be made.
 	
