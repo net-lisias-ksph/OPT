@@ -4,6 +4,7 @@ OPT Legacy Spaceplane Parts
 
 * Added dependency/migrated most MM patches to --> OPT Reconfig mod
 * Added LFO version of aerodynamic OMS blocks
+* Added Mk2 ram intake (it will not cause any game or craft issues)
 * Fixed 
   * CCK support (OPT category will show if OPT Legacy without OPT Main is installed)
   * Manufacturer in blade antenna and some tanks
