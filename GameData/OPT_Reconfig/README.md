@@ -10,3 +10,8 @@ This modlet affects both OPT Main pack and OPT Legacy so be sure to always have 
 * Integrates USI Life Support, TAC and Snacks! through B9 or Wild Blue (absorbs the OPT_USI and OPT_WBI mods)
 * Delivers the fabled OPT FAR parch at last
 * Gives gimbal and proper thrust and Isp (more of each) to the linear aerospike (makes it actually usable)
+
+### LICENSE - CC-BY-NC-SA-4.0
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
