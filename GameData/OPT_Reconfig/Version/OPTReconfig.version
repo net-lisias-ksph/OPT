@@ -1,9 +1,10 @@
 {
-	"NAME":"OPT Legacy Spaceplane Parts",
-	"URL":"http://ksp-avc.cybutek.net/version.php?id=300",
-	"DOWNLOAD":"http://spacedock.info/mod/711/Orbit%20Portal%20Technology%20%5BOPT%5D%20Spaceplane%20Parts",
-	"VERSION":{"MAJOR":1,"MINOR":0,"PATCH":9,"BUILD":0},
-	"KSP_VERSION":{"MAJOR":1,"MINOR":3,"PATCH":1},
-	"KSP_VERSION_MIN":{"MAJOR":1,"MINOR":3,"PATCH":0},
-	"KSP_VERSION_MAX":{"MAJOR":1,"MINOR":3,"PATCH":1}
+"NAME":"OPT Reconfig",
+"URL":"http://ksp-avc.cybutek.net/version.php?id=572",
+"DOWNLOAD":"https://spacedock.info/mod/1808/OPT%20Reconfig",
+"CHANGE_LOG_URL":"https://github.com/Moobien/OPT_Legacy/blob/master/GameData/OPT_Reconfig/Version/OPTReconfig.version",
+"VERSION":{"MAJOR":1,"MINOR":0,"PATCH":0,"BUILD":0},
+"KSP_VERSION":{"MAJOR":1,"MINOR":4,"PATCH":2},
+"KSP_VERSION_MIN":{"MAJOR":1,"MINOR":4,"PATCH":0},
+"KSP_VERSION_MAX":{"MAJOR":1,"MINOR":4,"PATCH":3}
 }
