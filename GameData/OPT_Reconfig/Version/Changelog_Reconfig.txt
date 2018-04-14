@@ -1,5 +1,9 @@
 OPT Reconfig
 
+1.0.1
+
+* Fixed collision problem with CryoTanks
+
 1.0.0
 
 * Migrated TechTree node and most configs from OPT Legacy
