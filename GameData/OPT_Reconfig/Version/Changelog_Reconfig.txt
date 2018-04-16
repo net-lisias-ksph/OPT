@@ -1,5 +1,10 @@
 OPT Reconfig
 
+1.0.2
+
+* Removed dual WBI tank option on Stail docking port, adjusted legacy wing volume in B9PS
+* Fixed bad references to OPT Legacy
+
 1.0.1
 
 * Fixed collision problem with CryoTanks
