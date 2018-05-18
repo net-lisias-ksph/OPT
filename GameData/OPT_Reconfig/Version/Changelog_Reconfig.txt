@@ -1,5 +1,11 @@
 OPT Reconfig
 
+1.0.4
+
+* Fixed WarpJet Rescale config
+* Fixed Oxidizer tank option in OPT_WBI
+
+
 1.0.3
 
 * Provide own CryoTanks options to deal with apparent empty CryoTanks folder bug
