@@ -1,4 +1,11 @@
 OPT Reconfig
+1.0.5
+
+* Made B9 CryoTanks option to be sensitive to ClassicStock (and whether CryoTanks itself is present)
+* Raised internal heat limit on J-92 Shcramjet and Dark Drive
+* Added USI habitation to OPT K cockpits
+* Removed old references to codename "OPT_DynoTune"
+* Add OPT labs to WBI experiment whitelist for usable labs
 
 1.0.4
 
