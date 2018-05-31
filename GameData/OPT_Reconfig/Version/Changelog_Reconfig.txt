@@ -1,4 +1,9 @@
 OPT Reconfig
+1.0.6
+
+* CryoTanks options now depend on the presence of the "CryoEngines" folder, not "CryoTanks"
+* Oxidizer option now available for all parts
+
 1.0.5
 
 * Made B9 CryoTanks option to be sensitive to ClassicStock (and whether CryoTanks itself is present)
