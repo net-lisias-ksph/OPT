@@ -1,5 +1,9 @@
 OPT Legacy Spaceplane Parts
 
+1.1.1
+
+* Fix RCS in Legacy K cockpits
+
 1.1.0
 
 * Added dependency/migrated most MM patches to --> OPT Reconfig mod
