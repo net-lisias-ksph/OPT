@@ -1,4 +1,8 @@
 OPT Reconfig
+1.0.7
+
+* Fix J-92 plume problem
+
 1.0.6
 
 * CryoTanks options now depend on the presence of the "CryoEngines" folder, not "CryoTanks"
