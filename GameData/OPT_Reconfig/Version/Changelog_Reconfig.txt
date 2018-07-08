@@ -1,4 +1,9 @@
 OPT Reconfig
+1.1.0
+
+* Added Kerbalism support
+* Added Near Future Propulsion support
+
 1.0.7
 
 * Fix J-92 plume problem
