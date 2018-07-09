@@ -1,7 +1,9 @@
 OPT Reconfig
 1.1.0
 
-* Added Kerbalism support
+* Added Battery tank type among the defaults
+* Made all tank types switchable in-flight except Structural and Battery
+* Added Kerbalism support including many B9 tank options for un-crewed parts
 * Added Near Future Propulsion support
 
 1.0.7
