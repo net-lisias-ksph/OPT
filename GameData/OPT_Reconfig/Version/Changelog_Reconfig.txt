@@ -1,4 +1,8 @@
 OPT Reconfig
+1.2.0
+
+* NON-FAR aero patch; makes parts less draggy(tm)
+
 1.1.0
 
 * Added Battery tank type among the defaults
