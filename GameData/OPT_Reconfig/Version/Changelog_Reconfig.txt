@@ -1,4 +1,9 @@
 OPT Reconfig
+1.2.1
+
+* Fixed major error in version file
+* Removed giant smoke plumes from Mk2 engine
+
 1.2.0
 
 * NON-FAR aero patch; makes parts less draggy(tm)
