@@ -1,8 +1,11 @@
 OPT Legacy Spaceplane Parts
 
-1.1.1
+1.1.1 (WIP)
 
-* Fix RCS in Legacy K cockpits
+* Fixed RCS in Legacy K cockpits
+* Renamed 2.5m ILS cockpit to cure repeat part name issue
+* Fixed bulkhead profile in WarpJet SAGE engine
+* Fixed 2.5m ISP cockpit problem (now there's a new/returning part: the ISP Cockpit Legacy)
 
 1.1.0
 
