@@ -1,6 +1,6 @@
 OPT Legacy Spaceplane Parts
 
-1.1.1 (WIP)
+1.1.1
 
 * Fixed RCS in Legacy K cockpits
 * Renamed 2.5m ILS cockpit to fix repeat part name issue and part icon spam in the tech tree
