@@ -1,8 +1,12 @@
 OPT Reconfig
 1.2.2 (WIP)
 
-* WBI patch ignores Dark Goo generator in OPT labs
-* WBI battery tank option
+* WBI config
+  * Added Dark Goo generator to DocSci templates, available to any lab that uses WBI lab templates
+  * Added Dark Goo generator to OmniConverters
+  * Added Battery tank option to parallel the one provided by B9PS
+  * Added OmniStorage to all parts
+  * Fixed missing options in H + Humpback cabins
 * Fixed plumes (again?) in J-92 Nebula engine
 * Fixed bulkhead profile in HAE-02 Mk2 engine
 * (Re)added Science Box storage for Dark Goo
