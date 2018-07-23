@@ -1,6 +1,7 @@
 OPT Reconfig
-1.2.2 (WIP)
+1.2.2
 
+* This release is completely intact unlike the others. I swear.
 * WBI config
   * Added Dark Goo generator to DocSci templates, available to any lab that uses WBI lab templates
   * Added Dark Goo generator to OmniConverters
