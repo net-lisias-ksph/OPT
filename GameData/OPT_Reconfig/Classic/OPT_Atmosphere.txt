@@ -1,47 +1,13 @@
-//Buff all cockpit intakes
-@PART[b_cockpit_qs,j_cockpit_qs,j_6m_cockpit]:FOR[OPT_Legacy]
-{
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 5
-		@maxAmount = 5
-	}
-	%RESOURCE[Atmosphere]
-	{
-		%amount = 5
-		%maxAmount = 5
-	}
-}
-@PART[k_10m_cockpit,k_10m_cockpit_legacy,k_10m_cockpit_custom]:FOR[OPT_Legacy]
-{
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 6
-		@maxAmount = 6
-	}
-	%RESOURCE[Atmosphere]
-	{
-		%amount = 6
-		%maxAmount = 6
-	}
-}
-@PART[l_8m_cockpit]:FOR[OPT_Legacy]
-{
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 7
-		@maxAmount = 7
-	}
-	%RESOURCE[Atmosphere]
-	{
-		%amount = 7
-		%maxAmount = 7
-	}
-}
-
 // Engines
-@PART[opt_sage|opt_surge]:FOR[OPT_Legacy]
+@PART[opt_sage|opt_surge]:FOR[OPT_Reconfig]
 {
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[IntakeAtm]
+		{
+			@name = Atmosphere
+		}
+	}
 	@MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAtm]]
 	{
 		@resourceName = Atmosphere
@@ -50,16 +16,10 @@
 	{
 		@name = Atmosphere
 	}
-	@MODULE[ModuleEnginesFX],*
-	{
-		@PROPELLANT[IntakeAtm]
-		{
-			@name = Atmosphere
-		}
-	}
 }
 
-@PART[mk2_ramIntake]:FOR[OPT_Legacy]
+// Mk2 intake
+@PART[mk2_ramIntake]:FOR[OPT_Reconfig]
 {
 	@maxTemp = 2200
 	@description = This is not just another puny shock intake that stops working or melts at certain high speeds. It's a masterpiece that works well at all speed. Even better - it works without Oxygen. This is important for spaceplanes designed around the WarpJet engines.
