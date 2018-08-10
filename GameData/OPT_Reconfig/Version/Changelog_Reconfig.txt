@@ -1,4 +1,16 @@
 OPT Reconfig
+
+1.2.3
+
+* Added missing science container and Crew Report experiment to J boarding ramp and J rear hatch
+* Moved HAE-02 Mk2 engine to Aerospace Tech in tech tree
+* Buffed WBI storage capacity (x4)
+* Removed erroneous calls for OPT Legacy
+* Removed erroneous references to IntakeAtm when in Classic Stock mode and Community Resource Pack not installed
+* OPT parts will gain/use Atmosphere resource and not IntakeAtm simply if Pathfinder is installed
+* Added radiators to all cargo bays and hollow fuselage except ramps/tails
+* Remove second lift surface module from a 2.5m cockpit
+
 1.2.2
 
 * This release is completely intact unlike the others. I swear.

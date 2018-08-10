@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+1.1.2
+
+* Added/fixed science container and Crew Report experiment to Humpback cabin and Stail cockpit
+* Moved J-60 and J-61 to Aerospace Tech/ Exp Aircraft Engines in tech trees
+
 1.1.1
 
 * Fixed RCS in Legacy K cockpits
