@@ -2,7 +2,7 @@ OPT Reconfig
 1.2.4
 
 * Added XenonGas to NFPropulsion tank types.
-* Buffd Lithium tankage (maybe by too much. Untested).
+* Buffed Lithium tankage (maybe by too much. Untested).
 * Added MonoPropellant tank option to all tanks/parts.
 * Arranged new LF, LFO, Mono tank types to prevent using tank switch to cheat dV.
 * Added MonoPropellant tank option to everything.
