@@ -1,4 +1,16 @@
 OPT Reconfig
+1.2.4
+
+* Added XenonGas to NFPropulsion tank types.
+* Buffd Lithium tankage (maybe by too much. Untested).
+* Added MonoPropellant tank option to all tanks/parts.
+* Arranged new LF, LFO, Mono tank types to prevent using tank switch to cheat dV.
+* The following cannot be changed in-flight:
+  * Structural and Battery.
+  * Drop tanks.
+* Structural and Battery
+* Raised KIS slot counts.
+* Disabled whitelist entries for OPT labs for experiments. Apparently this causes MOLE experiments to always or only require an OPT lab.
 
 1.2.3
 
