@@ -1,4 +1,7 @@
 OPT Legacy Spaceplane Parts
+1.1.3
+
+* Moved CoL, CoP and CoM (centers of lift, pressure (drag) and mass) in Legacy wings so they make more sense (or stop making less sense) in aircraft designs. This should fix a good deal more aero problems.
 
 1.1.2
 
