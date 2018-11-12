@@ -1,4 +1,12 @@
 OPT Reconfig
+
+1.2.5
+
+* Anti-collision for Modular Fuel Tanks.
+* Adjusted cryo tank ratios to playable levels, half of the suggested values by, and thanks to Sresk.
+* Nerf USI recyclers for J cabin, added recyclers to J, Stail, Avatar cockpits.
+* Removed flameout plume on HAE-02 engine. Scaling problem makes it as a flashbang and a health hazard.
+
 1.2.4
 
 * Added XenonGas to NFPropulsion tank types.
