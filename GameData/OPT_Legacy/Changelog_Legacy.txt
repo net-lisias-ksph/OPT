@@ -1,4 +1,13 @@
 OPT Legacy Spaceplane Parts
+
+1.2
+
+* Anti-collision for Modular Fuel Tanks.
+* Fixed Avatar and Humpback aero shielding (except when ramps are attached).
+* Aero shielding for things clippd far enough into the Avatar-Chimera cockpit adapter.
+* Added inner nodes to Stail Docking & Utility Bay. (Aero shielding always active in it.)
+* Added joint strength to Humpback parts.
+
 1.1.3
 
 * Moved CoL, CoP and CoM (centers of lift, pressure (drag) and mass) in Legacy wings so they make more sense (or stop making less sense) in aircraft designs. This should fix a good deal more aero problems.
