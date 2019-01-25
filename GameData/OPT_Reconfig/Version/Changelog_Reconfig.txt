@@ -1,4 +1,11 @@
 OPT Reconfig
+1.3
+
+* Re-evaluated some bulkhead profiles:
+  * "i" parts are now in "size2"
+  * "juno" parts go to "j"
+* Added CCK-style custom bulkhead profiles
+* Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
 
 1.2.5
 
