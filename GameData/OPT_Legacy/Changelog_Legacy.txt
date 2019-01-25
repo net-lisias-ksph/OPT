@@ -1,4 +1,12 @@
 OPT Legacy Spaceplane Parts
+1.2.5
+
+* Reassessed some bulkhead profiles:
+  * updated avatar and chimera
+* Fixed missing bulkhead profiles
+* Added non-spool secondary mode to ARI-73 engine (for vacuum friendly operation)
+* Moved Stail lab to unlock alongside the J lab
+
 
 1.2
 
