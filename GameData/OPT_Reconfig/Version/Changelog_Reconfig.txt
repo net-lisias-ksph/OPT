@@ -6,6 +6,7 @@ OPT Reconfig
   * "juno" parts go to "j"
 * Added CCK-style custom bulkhead profiles
 * Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
+* Slight increase to Dark Drive's RTG output
 
 1.2.5
 
