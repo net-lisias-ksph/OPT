@@ -1,4 +1,11 @@
 OPT Reconfig
+
+1.3.1
+
+* Nuked leading edge drag on all OPT Main Wing elevons. No more perpetual open airbrake levels of drag at from these things
+* Revised USI modules config thanks to Nicky21
+* Changed default tank setting on droptanks (in WBI mode) from Oxidizer to LiquidFuel
+
 1.3
 
 * Re-evaluated some bulkhead profiles:
