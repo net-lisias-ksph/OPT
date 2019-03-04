@@ -1,4 +1,7 @@
 OPT Reconfig
+1.3.2
+
+* un-broke OPT ARI-75 quick response (2nd engine mode) in vacuum.
 
 1.3.1
 
