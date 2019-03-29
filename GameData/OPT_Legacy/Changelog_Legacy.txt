@@ -1,5 +1,11 @@
 OPT Legacy Spaceplane Parts
 
+1.3.0.2
+
+* Restored unused textures. Shame on me.
+* Adjusted versioning URLs.
+
+
 1.3.0.1
 
 * Adusted radiators.
