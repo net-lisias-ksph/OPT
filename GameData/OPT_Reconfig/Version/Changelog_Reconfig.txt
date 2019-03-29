@@ -3,7 +3,7 @@ OPT Reconfig
 1.3.3
 
 * Adjustments to Dark Drive/ Dark Goo config.
-* CTT for OPT Power Spheres
+* CTT for OPT Power Spheres.
 
 
 1.3.2

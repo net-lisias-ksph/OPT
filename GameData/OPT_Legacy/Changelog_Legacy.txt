@@ -7,6 +7,7 @@ OPT Legacy Spaceplane Parts
 * Added OPT Nebula Shock intake.
 * Added OPT power spheres (super fuel cell and fusion reactors). These will also hold and depend on Dark Goo unless you delete the DarkDrive config.
 * Fixed ARI-73 non-spool mode in vacuum.
+* Adjusted legacy wings CoL and CoM.
 
 
 1.2.5
