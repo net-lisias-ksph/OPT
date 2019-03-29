@@ -2,7 +2,7 @@ OPT Legacy Spaceplane Parts
 
 1.3.0
 
-* Added 2.5m Nebula intake.
+* Added 2.5m Nebula intake. It features shock cone animations which require B9 Animation Modules plugin found in B9 Aerospace.
 * Added missing "OPT" prefix to Mk3 part titles.
 * Added OPT Nebula Shock intake.
 * Added OPT power spheres (super fuel cell and fusion reactors). These will also hold and depend on Dark Goo unless you delete the DarkDrive config.
