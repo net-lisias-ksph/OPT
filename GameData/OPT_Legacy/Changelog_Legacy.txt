@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+1.3.0.1
+
+* Adusted radiators.
+
+
 1.3.0
 
 * Added missing "OPT" prefix to Mk3 part titles.
