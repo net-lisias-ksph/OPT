@@ -3,14 +3,10 @@ OPT Legacy Spaceplane Parts
 1.3.1 (Done)
 
 * Prune the lurking Firespitter modules from part configs.
-* Reduce cooling requirements in Power Spheres. They were magnets for the timewarp heat bug.
+* Reduce cooling requirements in Power Spheres and replace degeneration mechanism's converter module with RTG module. The always-on converter, though it should not use core heat, was somehow a magnet for the timewarp heat bug.
+* Nerfed tankage in all inline RCS and aerodynamic RCS clusters. They were quite excessive.
+* All RCS performance balanced and now use Plume Party "Soyuz" RCS FX.
 
-
-1.3.1 (Planned)
-
-* Maybe remove Xenon tankage from the power spheres.
-* Release another handful of parts.
-* Deal with RCS plumes and settings-- I just opened a cockpit config with ModuleRCS, 600s Isp, and don't tax the EC supply.
 
 1.3.0.2
 
