@@ -1,5 +1,61 @@
 OPT Reconfig
 
+1.3.4 (Done)
+
+* Added 1 deg of gimbal to Dark Drive.
+* Found/added B9 mesh switch in OPT 'Stail' Class to 2.5m Adapter.
+* Raised heat resistance in J and Mk2 noses.
+
+WBI integration
+- - - -
+* Update the template decal links following WBI decal revamp for KSP 1.7.
+* OPT Reconfig will appear in play mode switcher UI.
+* Fusion Power Spheres can switch input resources via WBI.
+* Add cryo fuel options.
+* Add OmniShop and OmniWorks to the following parts:
+  * Avater cockpit adapter and Avatar tank
+  * K 6m tank
+  * J cabin and J 4m tank
+  * Stail 4m tank
+  * H inline tanks
+  * Humpback cabin
+
+1.3.4 (Planned)
+
+* Fix certain (relatively larger) parts sharing lesser tank volumes than they should with (smaller parts) where that lesser volume is ok.
+* Make decals for CMD templates and OPT OmniShop, omniWorks templates.
+
+
+1.3.3.1
+
+* Adjusted versioning urls.
+
+
+1.3.3
+
+* Adjustments to Dark Drive/ Dark Goo config.
+* CTT for OPT Power Spheres.
+
+
+1.3.2
+
+* un-broke OPT ARI-75 quick response (2nd engine mode) in vacuum.
+
+1.3.1
+
+* Nerfed leading edge drag on all OPT Main Wing elevons. No more open airbrake levels of drag at zero AoA from these things
+* Revised USI modules config thanks to Nicky21
+* Changed default tank setting on droptanks (in WBI mode) from Oxidizer to LiquidFuel
+
+1.3
+
+* Re-evaluated some bulkhead profiles:
+  * "i" parts are now in "size2"
+  * "juno" parts go to "j"
+* Added CCK-style custom bulkhead profiles
+* Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
+* Slight increase to Dark Drive's RTG output
+
 1.2.5
 
 * Anti-collision for Modular Fuel Tanks.
