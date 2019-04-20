@@ -1,5 +1,17 @@
 OPT Legacy Spaceplane Parts
 
+1.3.1 (Done)
+
+* Prune the lurking Firespitter modules from part configs.
+* Reduce cooling requirements in Power Spheres. They were magnets for the timewarp heat bug.
+
+
+1.3.1 (Planned)
+
+* Maybe remove Xenon tankage from the power spheres.
+* Release another handful of parts.
+* Deal with RCS plumes and settings-- I just opened a cockpit config with ModuleRCS, 600s Isp, and don't tax the EC supply.
+
 1.3.0.2
 
 * Restored unused textures. Shame on me.

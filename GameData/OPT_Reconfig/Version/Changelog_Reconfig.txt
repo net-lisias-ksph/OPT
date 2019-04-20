@@ -1,5 +1,31 @@
 OPT Reconfig
 
+1.3.4 (Done)
+
+* Added 1 deg of gimbal to Dark Drive.
+* Found/added B9 mesh switch in OPT 'Stail' Class to 2.5m Adapter.
+* Raised heat resistance in J and Mk2 noses.
+
+WBI integration
+- - - -
+* Update the template decal links following WBI decal revamp for KSP 1.7.
+* OPT Reconfig will appear in play mode switcher UI.
+* Fusion Power Spheres can switch input resources via WBI.
+* Add cryo fuel options.
+* Add OmniShop and OmniWorks to the following parts:
+  * Avater cockpit adapter and Avatar tank
+  * K 6m tank
+  * J cabin and J 4m tank
+  * Stail 4m tank
+  * H inline tanks
+  * Humpback cabin
+
+1.3.4 (Planned)
+
+* Fix certain (relatively larger) parts sharing lesser tank volumes than they should with (smaller parts) where that lesser volume is ok.
+* Make decals for CMD templates and OPT OmniShop, omniWorks templates.
+
+
 1.3.3.1
 
 * Adjusted versioning urls.
