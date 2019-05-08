@@ -1,4 +1,82 @@
 OPT Reconfig
+
+1.5.1 (WIP)
+
+* Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
+* Consolidate and compartmentalize Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
+* Fixed syntax errors that break the OPT Power Spheres under WBI integration.
+* Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
+* Add Ioncross Crew Support (basic LS)
+
+
+1.5.0
+
+* Added 1 deg of gimbal to Dark Drive.
+* Found/added B9 mesh switch in OPT 'Stail' Class to 2.5m Adapter.
+
+Big Balance Pass
+- - - - - -
+* Raised heat resistance in J "heat resistant" nose and Mk2 nose.
+* Buffed most tank volumes (as measured with stock fuel tanks and WBI Mule MLM. They now largely hold 2x the usual amounts and have comparable dry/wet ratios to stock tanks. This will upset, though not break, many craft). OPT is also now much more usable with Nertea's CryoTanks and CryoEngines.
+* Cockpits now hold much less fuel. They were excessive.
+* All RCS performance balanced and now use Plume Party "Soyuz" RCS FX.
+* K Tricoupler no longer holds fuel.
+* Nerfed tankage in all inline RCS and aeroydynamic RCS clusters. They were quite excessive.
+
+WBI integration
+- - - - - -
+* Update the template decal links following WBI decal revamp for KSP 1.7.
+  * Added decal for SAS/Gyro template.
+* OPT Reconfig will appear in play mode switcher UI.
+* Fusion Power Spheres can switch input resources via WBI.
+* Added cryo fuel options.
+* Added Casa/Ponderosa templates to the following parts: J Cabin, Humpback Cabin.
+* Added OmniShop and OmniWorks to the following parts. The use of tanks for this are a take on the "wet workshop" concept:
+  * Avater cockpit adapter and Avatar tank
+  * K 6m tank
+  * J cabin and J 4m tank
+  * Stail 4m tank
+  * H inline tanks
+  * Humpback cabin
+
+
+1.3.3.1
+
+* Adjusted versioning urls.
+
+
+1.3.3
+
+* Adjustments to Dark Drive/ Dark Goo config.
+* CTT for OPT Power Spheres.
+
+
+1.3.2
+
+* un-broke OPT ARI-75 quick response (2nd engine mode) in vacuum.
+
+1.3.1
+
+* Nerfed leading edge drag on all OPT Main Wing elevons. No more open airbrake levels of drag at zero AoA from these things
+* Revised USI modules config thanks to Nicky21
+* Changed default tank setting on droptanks (in WBI mode) from Oxidizer to LiquidFuel
+
+1.3
+
+* Re-evaluated some bulkhead profiles:
+  * "i" parts are now in "size2"
+  * "juno" parts go to "j"
+* Added CCK-style custom bulkhead profiles
+* Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
+* Slight increase to Dark Drive's RTG output
+
+1.2.5
+
+* Anti-collision for Modular Fuel Tanks.
+* Adjusted cryo tank ratios to playable levels, half of the suggested values by, and thanks to Sresk.
+* Nerf USI recyclers for J cabin, added recyclers to J, Stail, Avatar cockpits.
+* Removed flameout plume on HAE-02 engine. Scaling problem makes it as a flashbang and a health hazard.
+
 1.2.4
 
 * Added XenonGas to NFPropulsion tank types.

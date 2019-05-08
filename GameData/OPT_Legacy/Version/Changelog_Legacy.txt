@@ -1,0 +1,223 @@
+OPT Legacy Spaceplane Parts
+
+1.4.0 (WIP)
+
+* Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
+* Fixed parts having obsolete category "Propulsion" to "FuelTank".
+* Fixed drag cubes in Avatar hollow and cargo sections. This made the use of Avatar--Stail adapters in payload-bearing planes actual nightmares.
+* Adjusted drag cubes for the mostly hollow Humpback parts. This vastly reduces drag losses caused by hollow parts having much less forward drag surface area than the non-hollow parts before or after them, and these extreme differences being handled poorly by stock aerodynamics.
+* Changed the internal names of Avatar parts (formerly "Chimera") that had a "C" designation to "A" to be inline with all other Avatar parts. The Chimera instances are soft-deprecated to not break craft files.
+* Legacy wings: removed lift surface module; raised actuator speed.
+* Applied IVAs (either stock placeholder or closely-matching OPT IVA):
+  * Avatar Chimera cockpit
+  * K Oulette and K TAV cockpit
+* Adjusted and normalized heat tolerances. Many in the Avatar and Stail family had > 3000K. Some other parts (mainly some cockpits) had only 1500K.
+
+(Extremely WIP)
+
+* Resurrect Avatar Shuttle/Freight cockpit
+
+
+1.3.1
+
+* Prune the lurking Firespitter modules from part configs.
+* Reduce cooling requirements in Power Spheres and replace degeneration mechanism's converter module with RTG module. The always-on converter, though it should not use core heat, was somehow a magnet for the timewarp heat bug.
+* Nerfed tankage in all inline RCS and aerodynamic RCS clusters. They were quite excessive.
+* All RCS performance balanced and now use Plume Party "Soyuz" RCS FX.
+
+
+1.3.0.2
+
+* Restored unused textures. Shame on me.
+* Adjusted versioning URLs.
+
+
+1.3.0.1
+
+* Adusted radiators.
+
+
+1.3.0
+
+* Added missing "OPT" prefix to Mk3 part titles.
+* Added OPT Nebula Shock intake. It features shock cone animations which require B9 Animation Modules plugin found in B9 Aerospace.
+* Added OPT power spheres (super fuel cell and fusion reactors). These will also hold and depend on Dark Goo unless you delete the DarkDrive config.
+* Fixed ARI-73 non-spool mode in vacuum.
+* Adjusted legacy wings CoL and CoM.
+* Deleted unused texture folders, reduced download size by 20 MB.
+
+
+1.2.5
+
+* Reassessed some bulkhead profiles:
+  * updated avatar and chimera
+* Fixed missing bulkhead profiles
+* Added non-spool secondary mode to ARI-73 engine (for vacuum friendly operation)
+* Moved Stail lab to unlock alongside the J lab
+
+
+1.2
+
+* Anti-collision for Modular Fuel Tanks.
+* Fixed Avatar and Humpback aero shielding (except when ramps are attached).
+* Aero shielding for things clippd far enough into the Avatar-Chimera cockpit adapter.
+* Added inner nodes to Stail Docking & Utility Bay. (Aero shielding always active in it.)
+* Added joint strength to Humpback parts.
+
+1.1.3
+
+* Moved CoL, CoP and CoM (centers of lift, pressure (drag) and mass) in Legacy wings so they make more sense (or stop making less sense) in aircraft designs. This should fix a good deal more aero problems.
+
+1.1.2
+
+* Added/fixed science container and Crew Report experiment to Humpback cabin and Stail cockpit
+* Moved J-60 and J-61 to Aerospace Tech/ Exp Aircraft Engines in tech trees
+
+1.1.1
+
+* Fixed RCS in Legacy K cockpits
+* Renamed 2.5m ILS cockpit to fix repeat part name issue and part icon spam in the tech tree
+* Fixed bulkhead profile in WarpJet SAGE engine
+* Fixed 2.5m ISP cockpit problem (now there's a new/returning part: the ISP Cockpit Legacy)
+* Added missing surface attach for Stail Fairing Monopropellant Tank
+
+1.1.0
+
+* Added dependency/migrated most MM patches to --> OPT Reconfig mod
+* Added LFO version of aerodynamic OMS blocks
+* Added Mk2 ram intake (it will not cause any game or craft issues)
+* Fixed 
+  * CCK support (OPT category will show if OPT Legacy without OPT Main is installed)
+  * Manufacturer in blade antenna and some tanks
+  * bulkhead profile in J-81 engine, spotted by Kolago
+  * Stail lab science cap, is 1050 now, not 500
+* Added Tweakscale for all the surface-attached RCS
+* Replaced FS dependency in Stail docking and utility bay with stock module
+* Configured engines:
+  * Retuned WarpJets and fixed Isp problem. SAGE is a little stronger now and will flameout at 9 atm, not 3 atm
+  * Adjusted particles for all engines (again =D )
+  * Use cases
+    * J-61 is no longer as wasteful or wildly OP but is a dynamic scramjet now (endless acceleration with Isp falloff)
+    * J-60 is also a dynamic scramjet (endless acceleration with Isp falloff)
+    * J-60D requires EC in ClosedCycle, Isp lowered so the J-81 stands alone as highest Isp vac engine (like Dark Drive) but J-60D in closed cycle remains very powerful near sea-level in atmo unlike J-81
+    * J-81 requires EC in ClosedCycle and is poor near sea level, gets a boost at 0.3 atm pressure
+	* J-81 airbreathing mode adjusted for thick atmosphere
+    * Stail Linear Aerospike has better thrust and Isp
+  * Gimbals
+    * J-81 visibly animates: given plenty Yaw authority and slight Pitch authority due to dual nozzle (emulate differential thrust)
+    * J-60 and J-60D same as J-81 but do not animate
+    * WarpJet SURGE given half gimbal ranges of J-60, J-60D
+    * Stail Linear Aerospike does not animate but is given plenty Pitch authority
+
+1.0.9
+
+* Added inner attachment nodes for Humpback hollow fuselage
+* Adjustment to ARI-73 and WarpJet engines (In particular, the ARI no longer grants insane dV)
+* Fixed Tweakscale and RemoteTech patches
+* Fixed cargo bay modules, removed aeroshield patch: the problem of reversed cargo module status
+* Further bulk update to all cargo bays and hollow fuselages: add/fix attach nodes, cargo modules, categories
+* Avatar parts:
+	* Added/fixed fuel switch for hollow fuselage and cargo bay
+	* Updated cockpit RCS
+
+1.0.8
+
+* Corrected bugs from Stealth texture changer. - Thank you EthanKerbman
+* Both Stail - 2.5m Adaptors fixed (stealth skin)
+* Stail Bicoupler fixed (Stealth skin)
+* Redefined ARI-73 engine. It consumes only LiquidFuel now and serves as nuclear jet and advanced nuclear rocket
+* Added improved particles to SAGE, SURGE, ARI-73, J60D, J-81 engines 
+* Added Tweakscale to SAGE, SURGE, ARI-73, J60D engines
+* Renamed K, KH, Humpabk OMS to SAS and added fuel switching to complement OPT Main RCS
+* Moved some engines in tech trees as follow-up to OPT Main engines moving
+* Added a tech tree node
+* Renamed all Legacy engines to fit OPT-E name convention
+* All Legacy wings:
+	* Added Tweakscale
+	* Fixed drag problem: reduced overall drag effect to 20%
+	* Restored lifting surface
+	* Renamed to fit OPT-W name convention with Main wings
+* Added gimbal (does not animate) to Main and Legacy aerospike engines (JadeofMaar)
+* Fixed a problem with all OPT cargo bays.
+* Minor rebalance to some engines.
+* Added RemoteTech antenna patch. - Thanks to Miromed
+
+1.0.7
+
+* Fixed Stail JSL cockpit cew capacity 2 (down from 5)
+* Fixed Stail Lab crew capacity 2 (down from 4)
+* Added SAGE and SURGE Enginges (JadeofMaar)
+* Added K, KH, Humpback OMS units (JadeofMaar)
+* Added/updated descriptions for some parts
+* Added all cockpit and cabin lights to Light action group
+* Fixed duplicate fuel switch options problem
+* Removed fuel tankage from Science Lab(s)
+* Increased IntakeAir amount in all cockpits (includes OPT Main) and added IntakeAtm which only appears when CommunityResourcePack installed
+* Fixed all remaining bulkhead profiles, reversion to J and K from OPTJ and OPTK to sync with OPT Main
+* Made proper texture for J60D Hybrid Screamjet (JadeofMaar)
+* Raised joint strength of Humpback parts
+* Incorporated Stealth Textures via FSTexture Switch
+	* Stail Aerospike
+	* Stail - Avatar Adapters (both)
+	* Stail Drone Core
+	* Stail - 2.5m Adaptors (Broken)
+	* Stail BiCoupler (Broken)
+	* Stail QS Cockpit
+	* Stail Engine Mount
+	* Stail 6 & 7m Cockpits.
+	* Stail Lab
+	* Stail Fuel Tank
+	* Stail Tail
+	* Stail Mk2 Adaptor
+	* Legacy Pack Wings
+
+** Known Issues
+
+* Door on the 6m Cockpit
+* Both Stail - 2.5m Adaptors not changing
+* Stail Bicoupler not changing
+* OMS units have no RCS/OMS thrust currently
+
+1.0.6
+
+* Added J60D Hybrid Screamjet - thanks to sebi.zzr
+* Fixed joystick prop path error
+
+1.0.5
+
+* Added J-OMS
+* Added J-Drone Core With OMS
+* Set all J & K Parts to be hidden unless OPT installed.
+* Corrected Juno cockpit bulkhead profile from J to OPTJ
+* Corrected KTAV Custom bulkhead profile from K to OPTK
+* Corrected KTAV bulkhead profile from K to OPTK
+* Restored Humpback Crew Fuel config
+
+1.0.3
+
+* Updated Legacy Pack License
+* Removed redundant text files
+* Removed OPT Main mod License
+* Removed OPT Main mod changelog
+
+1.0.2
+
+* Fixed Moobien's ships (I think for sure this time)
+* Restored some old OPT wings
+* Fixed Science Transmission issue.
+
+1.0.1
+
+* Juno and Kraken Parts adjusted to bring in line with main mod
+* Removed unused textures/parts
+
+
+1.0
+
+* Removed cockpits that have had texture updates in OPT Main 1.9
+* Removed All Juno parts except for the 7m Cockpit
+* Removed Engines present in OPT Main 1.9
+* Created new .version file for OPT Legacy
+* Renamed OPT folder to OPT_Legacy and updated cfg paths
+* Removed IVA present in OPT Main
+* Removed unused textures/parts

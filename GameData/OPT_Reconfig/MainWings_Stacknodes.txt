@@ -1,0 +1,101 @@
+// elevons have been found to insist to behave as though in radial symmetry in flight, even when surface-attached. Extreme caution advised if/when using this config.
+
+@PART[opt_wing_a]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -0.63, -2.3, 0, 0, -1, 0, 1
+}
+
+@PART[opt_wing_a_elevon]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, -0.30888, 0.9511, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_wing_b]
+{
+	mirrorRefAxis = 0, 0, 1
+	symMethod = Mirror
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -0.6, -1.6, 0, 0, -1, 0, 1
+}
+
+@PART[opt_wing_b_elevon]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, 0.32509, 0.94568, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_wing_c]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -0.37, -2.16, 0, 0, -1, 0, 1
+	node_stack_n2 = -2.51, -3.17, 0, 0, -1, 0, 1
+}
+
+@PART[opt_wing_c_elevon1]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, 0.41799, 0.90845, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_wing_c_elevon2]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, 0.41532, 0.90967, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_winglet_a]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -0.94, -1.17, 0, 0, -1, 0, 1
+}
+
+@PART[opt_winglet_a_elevon]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, -0.17653, 0.9843, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_winglet_b]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -0.14, -0.69, 0, 0, -1, 0, 1
+}
+
+@PART[opt_winglet_b_elevon]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, 0.4119, 0.91123, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}
+
+@PART[opt_winglet_c]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,1,1
+	node_stack_n1 = -1.21, -0.94, 0,	0, -1, 0, 1
+}
+
+@PART[opt_winglet_c_elevon]
+{
+	mirrorRefAxis = 0, 0, 1
+	@attachRules = 1,1,1,0,1
+	node_stack_top = 0, 0, 0, -0.02168, 0.99977, 0, 1
+	@description = A fancy large control surface for its respective OPT wing, now with stack nodes. Warning. Attach wings in symmetry but do not attach elevon in symmetry.
+}

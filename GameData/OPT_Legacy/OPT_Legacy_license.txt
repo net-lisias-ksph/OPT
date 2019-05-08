@@ -1,12 +1,12 @@
-Title: OPT Space Plane Legacy Parts
+Title: OPT Legacy Spaceplane Parts
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Credits:
-Models and texture are created by k.yeon
+Models and textures for all parts created by K. Yeon except those announced, created and tagged by JadeOfMaar or StoneBlue.
 Texture inspired by Porkjet
 used stock texture:mk2DockingPort
 Sounds are from:http://www.freespecialeffects.co.uk/
-Maintained by Moobien/stali79
-Bundled ships by Moobien/stali79
-Bundled ships may not be redistributed without consent or accreditation of Moobien/stali79
+
+Originally maintained by Moobien/stali79
+Actively maintained by StoneBlue and JadeOfMaar
