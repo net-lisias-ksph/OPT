@@ -7,7 +7,7 @@
 -  Combined /Kraken and /KSAS into new /K folder
 -  Renamed several part folders to better reflect the class of parts contained within
 
--  OCD triggered, deleted unecessary comments and whitespace, cleaned up formatting in all Avatar cfgs
+-  OCD triggered, deleted unecessary comments and whitespace, cleaned up formatting in all cfgs
 -  First scrub thru all part cfgs, editing/adding any discrepancies or missing info
 
 -  Added/updated part descriptions for the Avatar parts
