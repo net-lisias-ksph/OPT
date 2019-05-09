@@ -1,0 +1,26 @@
+19-05-08 Changes by Stone Blue
+
+-  Added /Assets, moved all models/textures from /Parts here, exc. those in /Textures
+-  Verified (and changed where necessary) that all .mu names matched matching .cfg names where applicable
+-  Updated all model/texture URLs
+
+-  Combined /Kraken and /KSAS into new /K folder
+-  Renamed several part folders to better reflect the class of parts contained within
+
+-  OCD triggered, deleted unecessary comments and whitespace, cleaned up formatting in all Avatar cfgs
+-  First scrub thru all part cfgs, editing/adding any discrepancies or missing info
+
+-  Added/updated part descriptions for the Avatar parts
+-  Increased maxTemp & skinMaxTemp on both Chimera Parts
+	- <Thanx, JadeofMaar, for these... :D )
+
+-  Changed Prop .cfg/.mu filenames to match internal names; updated URLs
+-  Moved all Prop files from /Props/<prop_name>, to /Props folder, updated model URLs
+
+-  Fixed typo in OPT_TACLS patch
+-  Added missing :NEEDS to OPT_MFT patch, b_4m_tanks
+-  Added missing :NEEDS to OPT_RF patch, b_4m_tanks
+-  Fixed possible case-sensitivity in :NEEDS in OPT_TACLS patch
+-  Updated part names in all patches for Avatar parts that were "c_", to new "a_"
+
+

@@ -1,0 +1,37 @@
+Avatar Cargo Ramp	- Done for both a_6m_cargo, and _cargoTail
+Whether we need to haul a very stylish, very cargo-filled container, or dozens of crewmen, to a given destination, one thing is for sure. We need a very big door and a very wide staircase for all of these things to roll up or down on when landed.
+
+
+Avatar Fuel Tank	- Done
+When the going gets tough and the tough get going, the tough need a fully enclosed volume to hold enough fuel for them to get where they're going!
+
+
+Avatar Hollow Fuselage	- Done
+When the going gets tough and the tough get going, the tough need space for their heavy equipment and any precious cargo. In the case of this part, they don't need the entirety of the storage area's floor or ceiling to be a door. Just be sure to never actually mention the cargo by the way. They won't like it.
+
+
+Avatar Shuttle Cockpit	- Done
+This large cockpit has seen high demand and was purpose built to meet the needs of the STS crowd in anticipation of advancement above and away from the popular Mk3 shuttle frame. Banking on the high potential of wide bodied cargo planes, OPT engineers even added hollow space within the cockpit for stashing important equipment and crew support resources that never need to be accessed in a cargo bay.
+
+
+Avatar Chimera Cockpit	- Done
+The Chimera cockpit trades off a fair portion of the usual amenities, like seating area, the scented pine tree, and the bobbling hula girl on the dashboard, for increased survivability during reentry and easier ability to cut the atmosphere...which isn't a very good thing on descent, some will say. But hey, Rule of Cool applies.
+
+change stats:
+maxTemp: = 1650
+skinMaxTemp = 2950
+
+
+Avatar Chimera Cockpit Adapter	- Done
+More than just structurally, this adapter supports the cockpit in a unique way. Aside from having built-in intakes and sacrificing tank volume, this fuselage section lends itself towards some use as a cabin or payload bay, supporting the crew for long missions. Cargo shielding is provided for clipping useful items into it such as life support. If Wild Blue Industries is present it gains OmniConverter slots.
+change stats:
+maxTemp: = 1650
+skinMaxTemp = 2950
+
+
+Avatar to Stail Adapters	- Done
+Adapting to change can be hard. This handy fuselage section won't help, unless you happen to be changing from a Stail class part to its larger Avatar class counterpart, in which case, it's just the thing.
+
+
+Avatar Bicoupler	- Done
+Capable of providing not one, but two 3.75m attachment points, the Avatar bicoupler was heralded as a revolution in the aerospace industry. While by and large it failed to live up to these expectations, it did manage to revolutionize the emerging field of splitting one big thing into two big things -- something at which it excels.

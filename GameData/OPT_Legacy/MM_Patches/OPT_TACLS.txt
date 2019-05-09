@@ -1,7 +1,7 @@
 // B9 TACLS
 
 // Cockpits
-@PART[j_cockpit]:NEEDS[TacLifeSupport&!modularFuelTanks&!RealFuels] {
+@PART[j_cockpit]:NEEDS[TacLifeSupport&!ModularFuelTanks&!RealFuels] {
     RESOURCE
     {
         name = Food
@@ -40,7 +40,7 @@
     }
 }
 
-@PART[mk23_cockpit]:NEEDS[TacLifeSupport&!modularFuelTanks&!RealFuels] {
+@PART[mk23_cockpit]:NEEDS[TacLifeSupport&!ModularFuelTanks&!RealFuels] {
     RESOURCE
     {
         name = Food
@@ -78,7 +78,7 @@
         maxAmount = 2
     }
 }
-@PART[ils_cockpit]:NEEDS[TacLifeSupport&!modularFuelTanks&!RealFuels] {
+@PART[ils_cockpit]:NEEDS[TacLifeSupport&!ModularFuelTanks&!RealFuels] {
     RESOURCE
     {
         name = Food
@@ -117,7 +117,7 @@
     }
 }
 // Cabins
-@PART[j_4m_Lab]:NEEDS[TacLifeSupport&!modularFuelTanks&!RealFuels] {
+@PART[j_4m_Lab]:NEEDS[TacLifeSupport&!ModularFuelTanks&!RealFuels] {
     RESOURCE
     {
         name = Food
