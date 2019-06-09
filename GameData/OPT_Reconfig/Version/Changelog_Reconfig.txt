@@ -6,7 +6,8 @@ OPT Reconfig
 * Consolidate and compartmentalize Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
 * Fixed syntax errors that break the OPT Power Spheres under WBI integration.
 * Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
-* Add Ioncross Crew Support (basic LS)
+* Add Ioncross Crew Support (basic LS).
+* Fix CRP IntakeAtm-for-all patch not working when planet does not have Oxygen.
 
 
 1.5.0

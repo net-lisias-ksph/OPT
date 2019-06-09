@@ -4,10 +4,11 @@ OPT Legacy Spaceplane Parts
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
 * Fixed parts having obsolete category "Propulsion" to "FuelTank".
-* Fixed drag cubes in Avatar hollow and cargo sections. This made the use of Avatar--Stail adapters in payload-bearing planes actual nightmares.
-* Adjusted drag cubes for the mostly hollow Humpback parts. This vastly reduces drag losses caused by hollow parts having much less forward drag surface area than the non-hollow parts before or after them, and these extreme differences being handled poorly by stock aerodynamics.
+* Fixed drag cubes in Avatar hollow parts. This made the use of Avatar--Stail adapters in payload-bearing planes actual nightmares.
+* Fixed drag cubes for Humpback hollow parts.
+* Fixed parts having invalid `dragModelType = override` setting. This causes horrific drag effects.
 * Changed the internal names of Avatar parts (formerly "Chimera") that had a "C" designation to "A" to be inline with all other Avatar parts. The Chimera instances are soft-deprecated to not break craft files.
-* Legacy wings: removed lift surface module; raised actuator speed.
+* Legacy wings: removed lift surface module (again); raised actuator speed.
 * Applied IVAs (either stock placeholder or closely-matching OPT IVA):
   * Avatar Chimera cockpit
   * K Oulette and K TAV cockpit
