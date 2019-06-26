@@ -3,11 +3,12 @@ OPT Reconfig
 1.5.1 (WIP)
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
-* Consolidate and compartmentalize Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
-* Fixed syntax errors that break the OPT Power Spheres under WBI integration.
+* Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
 * Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
-* Add Ioncross Crew Support (basic LS).
-* Fix CRP IntakeAtm-for-all patch not working when planet does not have Oxygen.
+* Added Ioncross Crew Support (a life support mod favored by other maintainers of OPT Spaceplane).
+* Fixed B9 tank types for NF Propulsion being declared regardless of NF Propulsion's presence.
+* Fixed CRP IntakeAtm-for-all patch not working when planet does not have Oxygen.
+* Fixed syntax errors that break the OPT Power Spheres under WBI integration.
 
 
 1.5.0
