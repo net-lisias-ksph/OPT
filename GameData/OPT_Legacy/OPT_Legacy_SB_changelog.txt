@@ -1,0 +1,44 @@
+19-07-01	Changes by Stone Blue and JadeOfMaar
+
+-  Shrunk the mod folder by almost 29MB by deleteing duplicate and unused textures, and by reducing a couple texture sizes
+
+-  Added /Assets folder, moved all models/textures from /Parts to here, exc. those in /Textures
+-  Deleted /Textures folder
+-  Deleted all /Engines subfolders, combined everything to /Engines
+-  Deleted duplicate J61 (used for both J61 and SAGE), and J60 models (used for J60, J60D and SURGE)
+
+-  Moved contents of /Humpback SAS to /Humpback
+-  Renamed Juno folder/class, to /J
+-  Renamed Kraken folder/class, to /K
+-  Moved contents of /KSAS to /K
+-  Deleted all /MiscParts subfolders, combined everything to /MiscParts
+-  Moved /Size_2 folder outside /MiscParts, as it has enough major parts to classify as its own class
+-  Deleted all Stail dockingport subfolders, combined everything to /Stail
+
+-  Renamed all model, texture and config filenames; updated all URLs
+-  Began implementation of adding "OPTL_" prefix to all Legacy filenames
+-  Updated all models and cfgs to reflect new texture names and placeholder/replacements
+	for shared textures
+
+-  Deleted duplicated Squad texture for Stail Inline Docking Port & Utility Bay
+-  Re-identified 'OMS' to RCS (for parts using Mono), and RCS-LFO (for parts using LFO); renamed part
+	titles and filenames to reflect this
+-  Made second pass of all filenames, and made changes to better clarify and match filenames to part titles
+-  Made changes to part *titles*, (not *internal part names*), to better organize and identify parts in the editors
+
+-  OCD triggered, deleted unecessary comments and whitespace, cleaned up formatting in all cfgs
+-  Scrubbed thru all part cfgs, editing/adding any discrepancies or missing info
+
+-  Changed /Prop filenames to match internal names; updated URLs
+-  Deleted all /Prop subfolders, combined everything to /Props
+
+	<Thanx, JadeofMaar, for everything below... :D )
+-  Added/updated part descriptions for the Avatar parts
+-  Increased maxTemp & skinMaxTemp on both Chimera Parts
+-  Fixed typo in OPT_TACLS patch
+-  Added missing :NEEDS to OPT_MFT patch, b_4m_tanks
+-  Added missing :NEEDS to OPT_RF patch, b_4m_tanks
+-  Fixed possible case-sensitivity in :NEEDS in OPT_TACLS patch
+-  Updated part names in all patches for Avatar parts that were "c_", to new "a_"
+
+
