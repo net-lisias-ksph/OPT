@@ -1,0 +1,177 @@
+OPT_TEMPLATE:NEEDS[Pathfinder]
+{
+	name = OPT-Propellium
+	author = JadeOfMaar
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/PropCryoLight
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/PropCryoLightGlow
+	description = This kit stores Propellium, a very popular high-efficiency propellant. OPT's chief engineering staff could not be reached when an inquiry was opened into how this kind of tank capacity was achieved on top of Wild Blue Industries' tech.
+	templateTags = stowage
+	
+	RESOURCE
+	{
+		name = Propellium
+		amount = 21000
+		maxAmount = 21000
+	}
+}
+
+OPT_TEMPLATE:NEEDS[Pathfinder]
+{
+	name = OPT-PropLox
+	author = JadeOfMaar
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/BiPropCryo
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/BiPropCryoGlow
+	description = This kit stores Propellium and Oxidizer, a very popular combination for high efficiency heavy lifters. OPT's chief engineering staff could not be reached when an inquiry was opened into how this kind of capacity was achieved on top of Wild Blue Industries' tech.
+	templateTags = stowage
+	
+	RESOURCE
+	{
+		name = Propellium
+		amount = 10500
+		maxAmount = 10500
+	}
+	RESOURCE
+	{
+		name = Oxidizer
+		amount = 700
+		maxAmount = 700
+	}
+}
+
+
+// Power Spheres
+// Feature mode/module for parts | Insert
+FUSIONMIX:NEEDS[Pathfinder]
+{
+	templateTags = opt
+	TechRequired:NEEDS[!CommunityTechTree] = experimentalElectrics
+	TechRequired:NEEDS[CommunityTechTree] = fusionPower
+	description = Produce power from FusionPellets.
+	ConverterName = FusionPellets
+	StartActionName = Start FusionPellets
+	StopActionName = Stop FusionPellets
+	Toggle ActionName = Stop FusionPellets Fusion
+	AutoShutdown = false
+	UseSpecialistBonus = false
+	EfficiencyBonus = 1
+	INPUT_RESOURCE
+	{
+		ResourceName = FusionPellets
+		Ratio = 0.000315
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectricCharge
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectroPlasma
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+		DumpExcess = True
+	}
+}
+
+FUSIONMIX:NEEDS[Pathfinder]
+{
+	templateTags = opt
+	TechRequired:NEEDS[!CommunityTechTree] = experimentalElectrics
+	TechRequired:NEEDS[CommunityTechTree] = fusionPower
+	description = Produce power from PreciousMetals.
+	ConverterName = PreciousMetals
+	StartActionName = Start PreciousMetals
+	StopActionName = Stop PreciousMetals
+	Toggle ActionName = Stop PreciousMetals Fusion
+	AutoShutdown = false
+	UseSpecialistBonus = false
+	EfficiencyBonus = 1
+	INPUT_RESOURCE
+	{
+		ResourceName = PreciousMetals
+		Ratio = 0.000005
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectricCharge
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectroPlasma
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+		DumpExcess = True
+	}
+}
+
+FUSIONMIX:NEEDS[Pathfinder]
+{
+	templateTags = opt
+	TechRequired:NEEDS[!CommunityTechTree] = experimentalElectrics
+	TechRequired:NEEDS[CommunityTechTree] = fusionPower
+	description = Produce power from Hexagen.
+	ConverterName = Hexagen
+	StartActionName = Start Hexagen
+	StopActionName = Stop Hexagen
+	Toggle ActionName = Stop Hexagen Fusion
+	AutoShutdown = false
+	UseSpecialistBonus = false
+	EfficiencyBonus = 1
+	INPUT_RESOURCE
+	{
+		ResourceName = Hexagen
+		Ratio = 0.000315
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectricCharge
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectroPlasma
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+		DumpExcess = True
+	}
+}
+FUSIONMIX:NEEDS[Pathfinder]
+{
+	templateTags = opt
+	TechRequired:NEEDS[!CommunityTechTree] = experimentalElectrics
+	TechRequired:NEEDS[CommunityTechTree] = fusionPower
+	description = Produce power from Propellium.
+	ConverterName = Propellium
+	StartActionName = Start Propellium
+	StopActionName = Stop Propellium
+	Toggle ActionName = Stop Propellium Fusion
+	AutoShutdown = false
+	UseSpecialistBonus = false
+	EfficiencyBonus = 1
+	INPUT_RESOURCE
+	{
+		ResourceName = Propellium
+		Ratio = 0.00445
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectricCharge
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+	}
+	OUTPUT_RESOURCE
+	{
+		ResourceName = ElectroPlasma
+		Ratio = 300
+		FlowMode = ALL_VESSEL
+		DumpExcess = True
+	}
+}

@@ -26,7 +26,7 @@
 	+MODULE[ModuleResourceIntake]
 	{ 
 		@resourceName = Atmosphere
-		!checkForOxygen = false
+		%checkForOxygen = false
 	}
 	+RESOURCE[IntakeAir]
 	{
