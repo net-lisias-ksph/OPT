@@ -11,7 +11,7 @@ OPT Reconfig
 * Fixed syntax errors that break the OPT Power Spheres under WBI integration.
 * Fixed broken fusion fuel selection for OPT Power Spheres under WBI: Classic Mode.
   * Added several fusion fuel options to OPT Power Spheres under WBI: CRP Mode.
-  * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium, RareMetals, XenonGas.
+  * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium.
 
 1.5.0
 
