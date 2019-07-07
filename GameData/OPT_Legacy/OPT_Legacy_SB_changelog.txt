@@ -1,3 +1,12 @@
+19-07-07 Changes by Stone Blue and JadeOfMaar
+
+<Stone Blue>
+-  Rebuilt and updated the Avatar AC_cockpitAdaptor model; adjusted attach nodes in cfg
+
+<JadeOfMaar>
+-  Updated Avatar A_8m_cockpit model and cfg
+
+
 19-07-01	Changes by Stone Blue and JadeOfMaar
 
 -  Shrunk the mod folder by almost 29MB by deleteing duplicate and unused textures, and by reducing a couple texture sizes
