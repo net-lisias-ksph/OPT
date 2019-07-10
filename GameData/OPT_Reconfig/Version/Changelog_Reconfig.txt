@@ -16,6 +16,12 @@ OPT Reconfig
   * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium.
   * Xenon option now fully treated as a fallback. Expect to be unable to use it in most cases.
 
+(Do these)
+* Get someone to produce FAR config for legacy wings
+* Produce MFT/RF config
+* Produce CryoEngines config
+* Finish tank balance pass
+
 1.5.0
 
 * Added 1 deg of gimbal to Dark Drive.
