@@ -1,6 +1,6 @@
 OPT Reconfig
 
-1.5.1 (WIP)
+1.6.0 (WIP)
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
 * Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
@@ -8,6 +8,12 @@ OPT Reconfig
 * Updated B9PS and WBI integration in accordance with release of Snacks: Air! and Stress!
 * Added Ioncross Crew Support (a life support mod favored by other maintainers of OPT Spaceplane).
 * Fixed B9 tank types for NF Propulsion being declared regardless of NF Propulsion's presence.
+* Fixed tank volume balancing. 
+  * Avatar and K full tanks now hold double that of hollow tanks (9360 LF).
+  * Avatar and K tanks.
+  * Bicouplers and tricoupler(s).
+  * Avatar, K and Humpback adapters.
+  * J and Stail to 2.5m adapters.
 * Fixed (removed) potential for BARIS module to add twice to science labs.
 * Fixed CRP IntakeAtm-for-all patch not working when planet does not have Oxygen.
 * Fixed syntax errors that break the OPT Power Spheres under WBI integration.
@@ -20,7 +26,6 @@ OPT Reconfig
 * Get someone to produce FAR config for legacy wings
 * Produce MFT/RF config
 * Produce CryoEngines config
-* Finish tank balance pass
 
 1.5.0
 
