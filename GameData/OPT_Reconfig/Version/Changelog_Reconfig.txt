@@ -4,9 +4,10 @@ OPT Reconfig
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
 * Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
-* Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
-* Updated B9PS and WBI integration in accordance with release of Snacks: Air! and Stress!
 * Added Ioncross Crew Support (a life support mod favored by other maintainers of OPT Spaceplane).
+* Added buff for Kerbal Foundries: Adjustable Landing Gear
+* Updated B9PS and WBI integration in accordance with release of Snacks: Air! and Stress!
+* Updated B9PS and WBI integration in accordance with internally renaming some Chimera parts and soft-deprecation to avoid breaking craft files. The only thing that can break is Tweakscale configs.
 * Fixed B9 tank types for NF Propulsion being declared regardless of NF Propulsion's presence.
 * Fixed tank volume balancing. 
   * Avatar and K full tanks now hold double that of hollow tanks (9360 LF).
@@ -26,6 +27,7 @@ OPT Reconfig
 * Get someone to produce FAR config for legacy wings
 * Produce MFT/RF config
 * Produce CryoEngines config
+
 
 1.5.0
 
