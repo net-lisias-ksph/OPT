@@ -1,11 +1,12 @@
 OPT Legacy Spaceplane Parts
 
-1.4.0 (WIP)
+1.4.0
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
 * Fixed parts having obsolete category "Propulsion" to "FuelTank".
 * Fixed drag cubes in Avatar hollow parts. This made payload-bearing planes un-playable.
 * Fixed drag cubes for Humpback hollow parts.
+* Changed J-61 engine plume. It breaks in DirectX 11.
 * Fixed parts having invalid `dragModelType = override` setting. This causes horrific drag effects.
 * Changed the internal names of Avatar parts (formerly "Chimera") that had a "C" designation to "A" to be inline with all other Avatar parts. The Chimera instances are soft-deprecated to not break craft files.
 * Legacy wings: removed lift surface module (again); raised actuator speed.
@@ -14,12 +15,7 @@ OPT Legacy Spaceplane Parts
   * K Oulette and K TAV cockpit
 * Adjusted and normalized heat tolerances. Many in the Avatar and Stail family had > 3000K. Some other parts (mainly some cockpits) had only 1500K.
 * Resurrected Avatar Shuttle/Freight cockpit.
-
-(Do these)
-* Add/fix "toggle" action key in power spheres
-* Retro-update/Backport Avatar cockpit for pre-KineticSloth reorganization
-* Nerf J-81 air-breathing mode?
-* Delete atmChangeFlow key from engines
+* Updated CCK config to exclude non-OPT parts like Breaking Ground's helic__opt__er blades.
 
 
 1.3.1
