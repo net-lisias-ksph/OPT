@@ -1,9 +1,9 @@
 OPT Reconfig
 
-1.6.0 (WIP)
+1.6.0
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
-* Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs, or easier to delete entirely without breaking things.
+* Consolidated and compartmentalized Dark Goo ecosystem. It's now divided across less configs and is easier to delete and disable without breaking things, for players who don't like it.
 * Added Ioncross Crew Support (a life support mod favored by other maintainers of OPT Spaceplane).
 * Added buff for Kerbal Foundries: Adjustable Landing Gear
 * Updated B9PS and WBI integration in accordance with release of Snacks: Air! and Stress!
@@ -22,12 +22,6 @@ OPT Reconfig
   * Added several fusion fuel options to OPT Power Spheres under WBI: CRP Mode.
   * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium.
   * Xenon option now fully treated as a fallback. Expect to be unable to use it in most cases.
-
-(Do these)
-* Get someone to produce FAR config for legacy wings
-* Produce MFT/RF config
-* Produce CryoEngines config
-
 
 1.5.0
 
