@@ -1,5 +1,10 @@
 OPT Reconfig
 
+1.6.1
+
+* Fixed Snacks: Air subtype being defined without its tank type/ without Air! enabled.
+
+
 1.6.0
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
