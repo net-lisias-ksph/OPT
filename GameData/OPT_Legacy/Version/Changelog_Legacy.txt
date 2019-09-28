@@ -1,5 +1,11 @@
 OPT Legacy Spaceplane Parts
 
+1.4.1 (WIP)
+
+* Ensured OPT Mk2 intake always has normalized and greater heat tolerance.
+* Updated WarpJet engines to now default to IntakeAir if CRP not installed.
+
+
 1.4.0
 
 * Minor engine tuning. ARI engines assume they're in vacuum at 0.1% or 0.001 atm.
