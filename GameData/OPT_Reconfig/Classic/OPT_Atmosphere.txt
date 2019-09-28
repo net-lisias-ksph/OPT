@@ -1,28 +1,40 @@
-// Engines
-@PART[opt_sage|opt_surge]:FOR[OPT_Reconfig]
+// Mk2 intake
+@PART[mk2_ramIntake]
 {
-	@MODULE[ModuleEnginesFX],*
-	{
-		@PROPELLANT[IntakeAtm]
-		{
-			@name = Atmosphere
-		}
-	}
-	@MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAtm]]
-	{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{ 
 		@resourceName = Atmosphere
+		%checkForOxygen = false
 	}
-	@RESOURCE[IntakeAtm]
+	+RESOURCE[IntakeAir]
 	{
 		@name = Atmosphere
 	}
 }
 
-// Mk2 intake
-@PART[mk2_ramIntake]:FOR[OPT_Reconfig]
+
+@PART[opt_sage]
 {
-	@maxTemp = 2200
-	@description = This is not just another puny shock intake that stops working or melts at certain high speeds. It's a masterpiece that works well at all speed. Even better - it works without Oxygen. This is important for spaceplanes designed around the WarpJet engines.
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{ 
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+	}
+	@MODULE[ModuleEnginesFX]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+		}
+	}
+}
+
+@PART[opt_surge]
+{
 	+MODULE[ModuleResourceIntake]
 	{ 
 		@resourceName = Atmosphere
@@ -31,5 +43,16 @@
 	+RESOURCE[IntakeAir]
 	{
 		@name = Atmosphere
+	}
+	@RESOURCE[Atmosphere]
+	{
+		@maxAmount = 400
+	}
+	@MODULE[ModuleEnginesFX]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+		}
 	}
 }
