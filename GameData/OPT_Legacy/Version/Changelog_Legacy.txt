@@ -2,8 +2,9 @@ OPT Legacy Spaceplane Parts
 
 1.4.1 (WIP)
 
-* Ensured OPT Mk2 intake always has normalized and greater heat tolerance.
+* Ensured OPT Mk2 intake always has normalized heat tolerance.
 * Updated WarpJet engines to now default to IntakeAir if CRP not installed.
+* Fixed drag cubes for Stail and Stail Freight parts.
 
 
 1.4.0

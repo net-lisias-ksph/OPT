@@ -8,7 +8,7 @@ OPT Reconfig
 * Fixed drag cubes for J body, particularly the drone cores and inline SAS.
 * Fixed Connected Living Space patch:
   * Added parts to this as passable volume was considered in the tank volume re-balance in Reconfig 1.5 ~ 1.6.
-* Ensured OPT Mk2 intake always has normalized and greater heat tolerance.
+* Ensured OPT Mk2 intake always has normalized heat tolerance.
 * OPT engines become CryoEngines if CryoEngines is installed.
 * Updated WarpJet engines to now default to IntakeAir if CRP not installed.
 
