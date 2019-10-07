@@ -4,10 +4,12 @@ OPT Reconfig
 
 * Added Rational Resources tank types patch.
 * Added boiloff module for OPT CryoTanks. Delete the plugin for it if this feature is not desired.
+* Added Subcategories config.
 * Fixed duplicate vesseltype keys in cockpits.
 * Fixed drag cubes for J body, particularly the drone cores and inline SAS.
 * Fixed Connected Living Space patch:
   * Added parts to this as passable volume was considered in the tank volume re-balance in Reconfig 1.5 ~ 1.6.
+* Fixed entries for a 2.5m cockpit in B9PS, WBI, IonCross and CLS integrations.
 * Ensured OPT Mk2 intake always has normalized heat tolerance.
 * OPT engines become CryoEngines if CryoEngines is installed.
 * Updated WarpJet engines to now default to IntakeAir if CRP not installed.
