@@ -1,5 +1,15 @@
 OPT Reconfig
 
+1.8.0
+
+* Added new plumes for all engines.
+* Adjusted Dark Goo balance.
+  * Added mass.
+  * Slowed its consumption and production rates.
+  * Added immense buffs for Dark Drive to serve as a half-decent interstellar engine.
+* Revised MFT/RealFuels configs.
+
+
 1.7.0
 
 * Added Rational Resources tank types patch.
