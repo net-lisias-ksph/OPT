@@ -1,5 +1,14 @@
 OPT Legacy Spaceplane Parts
 
+1.5.0
+
+* Added new plumes for all engines.
+* Moved RCS plume assets to OPT_Reconfig.
+* Adjusted engine performance for:
+  * J-81: Air-breathing performance buffed for thicker Oxygenated atmospheres.
+* Removed old configs.
+
+
 1.4.1
 
 * Ensured OPT Mk2 intake always has normalized heat tolerance.
