@@ -6,6 +6,7 @@ OPT Legacy Spaceplane Parts
 * Moved RCS plume assets to OPT_Reconfig.
 * Adjusted engine performance for:
   * J-81: Air-breathing performance buffed for thicker Oxygenated atmospheres.
+  * J-60D: ClosedCycle in thicker atmospheres. Might not be notice-able.
 * Removed old configs.
 
 
