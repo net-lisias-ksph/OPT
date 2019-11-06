@@ -9,6 +9,10 @@ OPT Legacy Spaceplane Parts
   * J-60D: ClosedCycle in thicker atmospheres. Might not be notice-able.
 * Removed old configs.
 
+1.4.2
+
+* Updated WarpJet engines. For real.
+
 
 1.4.1
 
