@@ -1,8 +1,9 @@
 OPT Legacy Spaceplane Parts
 
-1.5.0
+1.5.0 (WIP)
 
-* Added new plumes for all engines.
+* All engines: New plumes. New sounds.
+* Added missing lift surface ratings to these engines: All Mk2, Stail linear aerospike, J-81.
 * Moved RCS plume assets to OPT_Reconfig.
 * Adjusted engine performance for:
   * J-81: Air-breathing performance buffed for thicker Oxygenated atmospheres.

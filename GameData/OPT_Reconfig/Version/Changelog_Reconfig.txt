@@ -1,8 +1,11 @@
 OPT Reconfig
 
-1.8.0
+1.8.0 (WIP)
 
-* Added new plumes for all engines.
+* All engines: New plumes. New sounds.
+* Added patch for faster, stronger stock airbrake.
+* Added missing lift surface ratings to these engines: HAE-02 Mk2 engine, J Linear aerospike.
+* Added surface attach to Mk2 Nose.
 * Adjusted Dark Goo balance.
   * Added mass.
   * Slowed its consumption and production rates.
