@@ -2,12 +2,16 @@ OPT Legacy Spaceplane Parts
 
 1.5.0 (WIP)
 
-* All engines: New plumes. New sounds.
+* All legacy engines: New plumes. New sounds.
 * Added missing lift surface ratings to these engines: All Mk2, Stail linear aerospike, J-81.
-* Moved RCS plume assets to OPT_Reconfig.
+* Added airbrakes (cloned from B9 Aerospace). 
+* Added J cabin IVA to Humpback cabin
 * Adjusted engine performance for:
   * J-81: Air-breathing performance buffed for thicker Oxygenated atmospheres.
   * J-60D: ClosedCycle in thicker atmospheres. Might not be notice-able.
+* Fixed missing default light action group in legacy J cockpit.
+* Fixed (Bandaged) intake module problem in Humpback cockpit.
+* Moved RCS plume assets to OPT_Reconfig.
 * Removed old configs.
 
 1.4.2
