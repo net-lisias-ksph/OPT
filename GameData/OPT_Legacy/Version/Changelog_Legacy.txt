@@ -3,16 +3,23 @@ OPT Legacy Spaceplane Parts
 1.5.0 (WIP)
 
 * All legacy engines: New plumes. New sounds.
+* Added Restock DepthMask module to the following. This allows for parts to clip properly into each other and be less likely to show through where they should not:
+  * All cockpits with built-in intakes.
+  * Mk2 and 2.5m (J92) intakes.
+  * All engines.
 * Added missing lift surface ratings to these engines: All Mk2, Stail linear aerospike, J-81.
-* Added airbrakes (cloned from B9 Aerospace). 
-* Added J cabin IVA to Humpback cabin
+* Added re-entry grade airbrakes (cloned from B9 Aerospace). 
+* Added J cabin IVA to Humpback cabin.
 * Adjusted engine performance for:
   * J-81: Air-breathing performance buffed for thicker Oxygenated atmospheres.
   * J-60D: ClosedCycle in thicker atmospheres. Might not be notice-able.
 * Fixed missing default light action group in legacy J cockpit.
-* Fixed (Bandaged) intake module problem in Humpback cockpit.
+* Fixed low heat tolerance in J-60, J-60D engines. Were 2000K, now 2400 ~ 2700K.
+* Fixed (Bandaged) intake module problem in Humpback cockpit. It's now actually useable and equivalent to 2x OPT Mk2 intake.
+* Made the ARI-73 much more expensive with reference to its nuclear engine nature and unique advantages.
 * Moved RCS plume assets to OPT_Reconfig.
-* Removed old configs.
+* Removed many old configs.
+* Some adjustments to costs and performance of engines.
 
 1.4.2
 

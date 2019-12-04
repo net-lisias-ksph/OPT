@@ -5,10 +5,14 @@ OPT Reconfig
 * All main engines: New plumes. New sounds.
 * Added missing lift surface ratings to these engines: HAE-02 Mk2 engine, J Linear aerospike.
 * Added surface attach to Mk2 Nose.
+* Adjusted Power Sphere fusion selection.
+  * Some options are now only available when relevant mods are installed.
+  * Removed duplicate LqdHe3 option.
 * Adjusted Dark Goo balance.
   * Added mass.
   * Slowed its consumption and production rates.
   * Added immense buffs for Dark Drive to serve as a half-decent interstellar engine.
+  * Made Dark Drive incredibly more expensive to match.
 * Revised MFT/RealFuels configs.
 
 
