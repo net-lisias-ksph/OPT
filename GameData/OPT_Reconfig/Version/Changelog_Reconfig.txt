@@ -1,6 +1,6 @@
 OPT Reconfig
 
-1.8.0 (WIP)
+1.8.0
 
 * All main engines: New plumes. New sounds.
 * Added missing lift surface ratings to these engines: HAE-02 Mk2 engine, J Linear aerospike.

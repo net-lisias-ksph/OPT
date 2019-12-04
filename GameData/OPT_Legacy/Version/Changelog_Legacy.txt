@@ -1,6 +1,6 @@
 OPT Legacy Spaceplane Parts
 
-1.5.0 (WIP)
+1.5.0
 
 * All legacy engines: New plumes. New sounds.
 * Added Restock DepthMask module to the following. This allows for parts to clip properly into each other and be less likely to show through where they should not:
