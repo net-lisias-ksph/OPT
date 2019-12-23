@@ -1,8 +1,59 @@
-// Mk2 intake
-@PART[mk2_ramIntake]
+// Cockpit intakes
+@PART[b_cockpit_qs,j_cockpit_qs,j_6m_cockpit]:FOR[OPT_Reconfig]
+{
+	@RESOURCE[IntakeAir]
+	{
+		@amount = 5
+		@maxAmount = 5
+	}
+	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	%RESOURCE[Atmosphere]
+	{
+		%amount = 5
+		%maxAmount = 5
+	}
+}
+@PART[k_10m_cockpit,k_10m_cockpit_legacy,k_10m_cockpit_custom]:FOR[OPT_Reconfig]
+{
+	@RESOURCE[IntakeAir]
+	{
+		@amount = 6
+		@maxAmount = 6
+	}
+	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	%RESOURCE[Atmosphere]
+	{
+		%amount = 6
+		%maxAmount = 6
+	}
+}
+@PART[l_8m_cockpit]:FOR[OPT_Reconfig]
+{
+	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	%RESOURCE[Atmosphere]
+	{
+		%amount = 7
+		%maxAmount = 7
+	}
+}
+
+//Stack intakes
+@PART[mk2_ramIntake|opt_s2intake]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
-	{ 
+	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
@@ -12,11 +63,11 @@
 	}
 }
 
-
+// WarpJet engines
 @PART[opt_sage]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
-	{ 
+	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
@@ -24,11 +75,27 @@
 	{
 		@name = Atmosphere
 	}
-	@MODULE[ModuleEnginesFX]
+	@MODULE[ModuleEnginesFX],*
 	{
 		@PROPELLANT[IntakeAir]
 		{
 			@name = Atmosphere
+		}
+	}
+	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
+	{
+		@SUBTYPE,*
+		{
+			@MODULE
+			{
+				@DATA
+				{
+					@PROPELLANT[IntakeAir]
+					{
+						@name = Atmosphere
+					}
+				}
+			}
 		}
 	}
 }
@@ -36,7 +103,7 @@
 @PART[opt_surge]
 {
 	+MODULE[ModuleResourceIntake]
-	{ 
+	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
