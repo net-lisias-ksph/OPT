@@ -6,7 +6,7 @@
 		@amount = 5
 		@maxAmount = 5
 	}
-	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	+MODULE[ModuleResourceIntake]
 	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
@@ -37,7 +37,7 @@
 }
 @PART[l_8m_cockpit]:FOR[OPT_Reconfig]
 {
-	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	+MODULE[ModuleResourceIntake]
 	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
