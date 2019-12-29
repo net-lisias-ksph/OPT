@@ -15,7 +15,7 @@
 			title = MonoPropellant
 			primaryColor = ResourceColorMonoPropellant
 			secondaryColor = ResourceColorMonoPropellant
-			defaultSubtypePriority = 2 // Highest is default
+			defaultSubtypePriority = 3 // Highest is default
 			descriptionSummary = 
 			descriptionDetail = Uses MonoPropellant with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 140 s ASL / <color="yellow">280 s</color> Vac.
 			MODULE
@@ -49,11 +49,49 @@
 		}
 		SUBTYPE
 		{
+			name = Nitronite
+			title = Nitronite
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			defaultSubtypePriority = 1
+			descriptionSummary = 
+			descriptionDetail = Uses Nitronite with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 130 s ASL / <color="yellow">220 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = Nitronite
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 220
+						key = 1 130
+						key = 5 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
 			name = Air
 			title = CompressedAtmosphere
 			primaryColor = LightGrey
 			secondaryColor = LightGrey
-			defaultSubtypePriority = 1
+			defaultSubtypePriority = 2
 			descriptionSummary = 
 			descriptionDetail = Uses pressurized air with supercharged catalyzer to raise both thrust and efficiency. Incredibly hot air may cause severe burns to exposed skin.<br><b>Isp:</b> 120 s ASL / <color="yellow">160 s</color> Vac.
 			MODULE
