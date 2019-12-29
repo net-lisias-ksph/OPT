@@ -37,7 +37,44 @@ OPT_TEMPLATE:NEEDS[Pathfinder]
 		maxAmount = 700
 	}
 }
-
+OPT_TEMPLATE:NEEDS[Pathfinder]
+{
+	name = OPT-Atmo
+	author = JadeOfMaar
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Air
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/AirGlow
+	description = This kit stores Atmosphere, required by OPT WarpJet engines.
+	templateTags = stowage
+	
+	RESOURCE
+	{
+		name = Atmosphere
+		amount = 1800
+		maxAmount = 1800
+	}
+}
+OPT_TEMPLATE:NEEDS[Pathfinder]
+{
+	name = OPT-AtmoCombo
+	author = JadeOfMaar
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/AirCombo
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/AirComboGlow
+	description = This kit stores Atmosphere in a standard pressurized state and in a very highly pressurized state, required by OPT WarpJet engines and by air pressure RCS thrusters.
+	templateTags = stowage
+	
+	RESOURCE
+	{
+		name = Atmosphere
+		amount = 1200
+		maxAmount = 1200
+	}
+	RESOURCE
+	{
+		name = CompressedAtmosphere
+		amount = 600
+		maxAmount = 600
+	}
+}
 
 // Power Spheres
 // Feature mode/module for parts | Insert
