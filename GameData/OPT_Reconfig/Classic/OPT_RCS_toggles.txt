@@ -178,7 +178,7 @@
 		SUBTYPE
 		{
 			name = LH2O
-			title = Hydrolox
+			title = PropLox
 			primaryColor = ResourceColorLqdHydrogen
 			secondaryColor = ResourceColorOxidizer
 			defaultSubtypePriority = 1
