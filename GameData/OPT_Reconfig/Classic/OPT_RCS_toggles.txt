@@ -78,8 +78,8 @@
 					}
 					atmosphereCurve
 					{
-						key = 0 220
-						key = 1 130
+						key = 0 200
+						key = 1 120
 						key = 5 0.001
 					}
 				}
@@ -117,7 +117,7 @@
 					atmosphereCurve
 					{
 						key = 0 160
-						key = 1 120
+						key = 1 100
 						key = 5 0.001
 					}
 				}

@@ -75,6 +75,22 @@ OPT_TEMPLATE:NEEDS[Pathfinder]
 		maxAmount = 600
 	}
 }
+OPT_TEMPLATE:NEEDS[Pathfinder]
+{
+	name = OPT-Nitronite
+	author = JadeOfMaar
+	logoPanel = WildBlueIndustries/000WildBlueTools/Decals/Nitronite
+	glowPanel = WildBlueIndustries/000WildBlueTools/Decals/NitroniteGlow
+	description = This kit stores Nitronite, required by OPT RCS thrusters. Nitronite is non-toxic and easier to refill unlike MonoPropellant but is moderately less efficient to burn.
+	templateTags = stowage
+	
+	RESOURCE
+	{
+		name = Nitronite
+		amount = 1800
+		maxAmount = 1800
+	}
+}
 
 // Power Spheres
 // Feature mode/module for parts | Insert
