@@ -1,0 +1,179 @@
+// MonoProp RCS
+@PART:HAS[#manufacturer[OPT?Aerospace?Division],@MODULE[ModuleRCSFX]:HAS[#resourceName[MonoPropellant]]]:NEEDS[B9PartSwitch]
+{
+	@description ^= :$: <color="green">This part can change its RCS fuel mix.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = OPTRCSSwitch
+		switcherDescription = RCS Fuel Mix
+		switcherDescriptionPlural = RCS Fuel Mixes
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoPropellant
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			defaultSubtypePriority = 2 // Highest is default
+			descriptionSummary = 
+			descriptionDetail = Uses MonoPropellant with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 140 s ASL / <color="yellow">280 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = MonoPropellant
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 280
+						key = 1 140
+						key = 5 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Air
+			title = CompressedAtmosphere
+			primaryColor = LightGrey
+			secondaryColor = LightGrey
+			defaultSubtypePriority = 1
+			descriptionSummary = 
+			descriptionDetail = Uses pressurized air with supercharged catalyzer to raise both thrust and efficiency. Incredibly hot air may cause severe burns to exposed skin.<br><b>Isp:</b> 120 s ASL / <color="yellow">160 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = CompressedAtmosphere
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 160
+						key = 1 120
+						key = 5 0.001
+					}
+				}
+			}
+		}
+	}
+}
+
+// BiProp RCS
+@PART:HAS[#manufacturer[OPT?Aerospace?Division],@MODULE[ModuleRCSFX]:HAS[#resourceName[LiquidFuel]]]:NEEDS[B9PartSwitch]
+{
+	@description ^= :$: <color="green">This part can change its RCS fuel mix.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = OPTRCSSwitch
+		switcherDescription = RCS Fuel Mix
+		switcherDescriptionPlural = RCS Fuel Mixes
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = LFO
+			title = Kerolox
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor = ResourceColorOxidizer
+			defaultSubtypePriority = 2 // Highest is default
+			descriptionSummary = 
+			descriptionDetail = Uses the stock LiquidFuel & Oxidizer mix, and uses it very well.<br><b>Isp:</b> 140 s ASL / <color="yellow">260 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 0.45
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = Oxidizer
+						ratio = 0.55
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = 0 260
+						key = 1 140
+						key = 5 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = LH2O
+			title = Hydrolox
+			primaryColor = ResourceColorLqdHydrogen
+			secondaryColor = ResourceColorOxidizer
+			defaultSubtypePriority = 1
+			descriptionSummary = 
+			descriptionDetail = Uses the Propellium & Oxidizer mix.<br><b>Isp:</b> 136 s ASL / <color="yellow">340 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = Propellium
+						ratio = 1.5
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = Oxidizer
+						ratio = 0.1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					atmosphereCurve
+					{
+						key = 0 340
+						key = 1 136
+						key = 4 0.001
+					}
+				}
+			}
+		}
+	}
+}

@@ -75,11 +75,25 @@
 	{
 		@name = Atmosphere
 	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = CompressedAtmosphere
+	}
 	@MODULE[ModuleEnginesFX],*
 	{
 		@PROPELLANT[IntakeAir]
 		{
 			@name = Atmosphere
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJOpen
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 10
 		}
 	}
 	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
@@ -110,10 +124,22 @@
 	+RESOURCE[IntakeAir]
 	{
 		@name = Atmosphere
-	}
-	@RESOURCE[Atmosphere]
-	{
+		@amount = 400
 		@maxAmount = 400
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = CompressedAtmosphere
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJOpen
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 30
+		}
 	}
 	@MODULE[ModuleEnginesFX]
 	{
