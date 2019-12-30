@@ -1,5 +1,28 @@
 OPT Reconfig
 
+1.9.0
+
+* Fixed major oops (baddum tish!) with MFT/RealFuels patch. It activated alongside other patches and caused tank options conflicts.
+* Added Ablator tank type as part of drop tanks upgrade.
+* Added IntakeAtm tank option for WarpJet SAGE's closed cycle:
+  * Mk2 nose.
+  * Drop tanks.
+  * J, K, KH, Humpback inline SAS.
+* Added plural B9 tank descriptions.
+* Enabled all MonoPropellant-fed OPT RCS devices to switch between, and use MonoPropellant or IntakeAtm. (Needs B9 Part Switch and Community Resource Pack.)
+* Enabled all LFO-fed OPT RCS devices to switch between, and use LFO or LH2O. (Needs B9 Part Switch and Community Resource Pack.)
+* Enabled inline RCS devices and aerodynamic, pointy RCS thrusters to hold RCS fuels.
+* Fixed error in cockpit detection.
+* Fixed big error in RCS patch.
+* Removed SAS module from anything that's not a drone core.
+* Updated configs for stripping unwanted resource and feature switch modules.
+* Updated drop tanks to have proper complementary servings of LF or OX separately.
+
+[WBI Classic Stock]
+* Added templates for Atmosphere and for Atmosphere + CompressedAtmosphere. These resources no longer blacklisted in OPT Omnistorage and are required for fueling WarpJet SAGE's closed cycle, or fueling air-breathing RCS thrusters.
+* Enabled equivalent mono or bi-propellant RCS fuel mix options.
+* WarpJets air-breathing mode now include alternator for producing CompressdAtmosphere for air-breathing RCS.
+
 1.8.0
 
 * All main engines: New plumes. New sounds.

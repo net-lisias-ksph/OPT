@@ -1,5 +1,19 @@
 OPT Legacy Spaceplane Parts
 
+1.6.0
+
+* Aligned inner stack nodes perfectly with outer nodes for Stail drop bay. Reduces chances of attaching this part wrong and causing insane drag.
+* Clean up resource configs in part configs.
+* Fixed error in heat limit buff for Stail aerospike.
+* Removed SAS module from anything that's not a drone core.
+* Updated WarpJet SAGE Engine:
+  * Dual-mode.
+  * Has VASIMR-like feature powered by B9 Part Switch or Near Future Propulsion. B9-based Isp options require tech node unlock and require the engine to be shutdown while changing option.
+* Updated drop tanks:
+  * Fixed CoM position. It was at the attach point. It is now properly centered in the tank.
+  * Added thermal stats upgrades with texture options.
+
+
 1.5.0
 
 * All legacy engines: New plumes. New sounds.
@@ -20,6 +34,7 @@ OPT Legacy Spaceplane Parts
 * Moved RCS plume assets to OPT_Reconfig.
 * Removed many old configs.
 * Some adjustments to costs and performance of engines.
+
 
 1.4.2
 
