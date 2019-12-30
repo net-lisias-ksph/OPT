@@ -21,7 +21,9 @@ OPT Reconfig
 [WBI Classic Stock]
 * Added templates for Atmosphere and for Atmosphere + CompressedAtmosphere. These resources no longer blacklisted in OPT Omnistorage and are required for fueling WarpJet SAGE's closed cycle, or fueling air-breathing RCS thrusters.
 * Enabled equivalent mono or bi-propellant RCS fuel mix options.
-* WarpJets air-breathing mode now include alternator for producing CompressdAtmosphere for air-breathing RCS.
+  * MonoPropellant, Nitronite, CompressedAtmosphere.
+  * LiquidFuel + Oxidizer, Propellium + Oxidizer.
+* WarpJets also include alternators for producing CompressedAtmosphere for air-breathing RCS.
 
 1.8.0
 
