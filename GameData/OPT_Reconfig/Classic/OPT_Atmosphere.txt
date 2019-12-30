@@ -90,10 +90,24 @@
 	{
 		name = ModuleAlternator
 		engineName = WJOpen
+		outputName = Compressor (Open)
+		outputUnits = CAtm/s
 		RESOURCE
 		{
 			name = CompressedAtmosphere
 			rate = 10
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJClosed
+		outputName = Compressor (Closed)
+		outputUnits = CAtm/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 4
 		}
 	}
 	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
@@ -135,6 +149,8 @@
 	{
 		name = ModuleAlternator
 		engineName = WJOpen
+		outputName = Compressor (Open)
+		outputUnits = CAtm/s
 		RESOURCE
 		{
 			name = CompressedAtmosphere
