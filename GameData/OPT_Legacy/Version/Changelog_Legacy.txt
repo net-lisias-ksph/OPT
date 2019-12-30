@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+1.6.1
+
+* Removed NF Propulsion integration from warpJet SAGE. There are a few reasons why it cannot happen with this engine as-is.
+
+
 1.6.0
 
 * Aligned inner stack nodes perfectly with outer nodes for Stail drop bay. Reduces chances of attaching this part wrong and causing insane drag.
