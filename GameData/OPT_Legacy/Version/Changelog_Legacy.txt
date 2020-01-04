@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+1.6.2 (WIP)
+
+* Tuned drag cubes for OPT K inline SAS and Humpback family.
+
+
 1.6.1
 
 * Removed NF Propulsion integration from warpJet SAGE. There are a few reasons why it cannot happen with this engine as-is.
