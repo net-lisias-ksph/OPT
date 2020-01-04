@@ -1,5 +1,11 @@
 OPT Reconfig
 
+1.9.1 (WIP)
+
+* Added missing LH2 tank options to inline SAS parts.
+* Power Sphere "Tidal Force" accepts LH2O if CryoEngines is installed.
+
+
 1.9.0
 
 * Fixed major oops (baddum tish!) with MFT/RealFuels patch. It activated alongside other patches and caused tank options conflicts.
