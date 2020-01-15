@@ -4,6 +4,8 @@ OPT Reconfig
 
 * Added missing LH2 tank options to inline SAS parts.
 * Power Sphere "Tidal Force" accepts LH2O if CryoEngines is installed.
+* Changed Power Spheres to use B9PS for input switching. Requires quicksave + quickload after applying.
+  * Added options to "Tidal Force" Power Sphere (No longer just LFO, but LF, Mono, LH2O, LH2.)
 
 
 1.9.0
