@@ -6,6 +6,7 @@ OPT Reconfig
 * Power Sphere "Tidal Force" accepts LH2O if CryoEngines is installed.
 * Changed Power Spheres to use B9PS for input switching. Requires quicksave + quickload after applying.
   * Added options to "Tidal Force" Power Sphere (No longer just LFO, but LF, Mono, LH2O, LH2.)
+* Removed lift surface from I series parts.
 
 
 1.9.0
