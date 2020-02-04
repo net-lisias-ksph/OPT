@@ -1,6 +1,6 @@
 OPT Reconfig
 
-1.9.1 (WIP)
+1.9.1
 
 * Added missing LH2 tank options to inline SAS parts.
 * Changed Power Spheres to use B9PS for input switching. Requires quicksave + quickload after applying.
