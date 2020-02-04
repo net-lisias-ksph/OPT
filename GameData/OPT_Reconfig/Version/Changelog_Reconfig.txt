@@ -8,7 +8,7 @@ OPT Reconfig
 * Removed erroneous line that removes B9PS from H noses under USI LS.
 * Removed lift surface from I series parts.
 * Updated Power Sphere "Tidal Force" to accept LH2O if CryoEngines is installed.
-
+* Warning: Tweakscale effects will no longer apply to B9-enhanced converters.
 
 1.9.0
 
