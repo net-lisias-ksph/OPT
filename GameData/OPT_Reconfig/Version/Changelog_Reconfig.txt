@@ -1,5 +1,10 @@
 OPT Reconfig
 
+1.9.2
+
+* Adjust Covert Aero tech node's position and cost for Unkerballed Start.
+* Adjust Covert Aero tech node to require both/all parent nodes to unlock.
+
 1.9.1
 
 * Added missing LH2 tank options to inline SAS parts.
