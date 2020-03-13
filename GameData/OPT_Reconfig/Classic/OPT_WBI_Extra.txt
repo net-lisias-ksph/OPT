@@ -10,8 +10,8 @@ OPT_TEMPLATE:NEEDS[Pathfinder]
 	RESOURCE
 	{
 		name = Propellium
-		amount = 21000
-		maxAmount = 21000
+		amount = 18000
+		maxAmount = 18000
 	}
 }
 
@@ -27,14 +27,14 @@ OPT_TEMPLATE:NEEDS[Pathfinder]
 	RESOURCE
 	{
 		name = Propellium
-		amount = 10500
-		maxAmount = 10500
+		amount = 9000
+		maxAmount = 9000
 	}
 	RESOURCE
 	{
 		name = Oxidizer
-		amount = 700
-		maxAmount = 700
+		amount = 900
+		maxAmount = 900
 	}
 }
 OPT_TEMPLATE:NEEDS[Pathfinder]
