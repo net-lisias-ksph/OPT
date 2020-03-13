@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+1.6.3 (WIP)
+
+* Updated radiator potential on nebula Shock intake.
+
+
 1.6.2
 
 * Tuned drag cubes for OPT K inline SAS and Humpback family.
