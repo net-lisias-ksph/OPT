@@ -1,13 +1,13 @@
 OPT Reconfig
 
-1.9.3 (WIP)
+1.9.3 
 
-* Added ablative cooling system to Nebula Shock intake. This system requires the Nebula engine in scramjet mode for peak performance.
 * Added Kerbal Atomics detection to cryo tank/engine patch.
 * Adjusted WBI EC template to provide 20x units per volume like B9PS does. (It was formerly 4x.)
 * Adjusted fuel ratio for air-breathing cryo engines. Less demanding on intakes.
-* Updated Nebula scramjet mode for more fuel efficiency but more EC demanding.
+* Fixed MFT patch. It was self-deleting.
 * Removed second lift surface module in J aerospike.
+* Updated Nebula scramjet mode for more fuel efficiency but more EC demanding.
 
 1.9.2
 
