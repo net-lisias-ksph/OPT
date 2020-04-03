@@ -1,5 +1,9 @@
 OPT Reconfig
 
+1.9.4 (WIP)
+
+* Added drag cube fix for stock Mk2 drone core.
+
 1.9.3 
 
 * Added Kerbal Atomics detection to cryo tank/engine patch.

@@ -2,7 +2,10 @@ OPT Legacy Spaceplane Parts
 
 1.6.3 (WIP)
 
+* Added 'brake' tag to airbrake parts. They were not search-able.
+* Updated DepthMask meshes to always be transparent. (Makes them friendly or unobtrusive in KSP 1.7 and older.)
 * Updated radiator potential on nebula Shock intake.
+* Updated drop tank heat tolerance selection to not use tank-bearing B9 options when MFT or RF are present.
 
 
 1.6.2
