@@ -1,6 +1,6 @@
 OPT Legacy Spaceplane Parts
 
-1.6.3 (WIP)
+1.7.0 (WIP)
 
 * Added 'brake' tag to airbrake parts. They were not search-able.
 * Rebalanced engines:
@@ -8,9 +8,10 @@ OPT Legacy Spaceplane Parts
   * Made J-81 closed cycle very EC demanding.
   * Nerfed J-60D closed cycle Isp.
   * Normalized EC ratios and Isp of LFO+EC engines.
-* Updated DepthMask meshes to always be transparent. (Makes them friendly or unobtrusive in KSP 1.7 and older.)
+* Updated DepthMask meshes to always be transparent. (Hopefully makes them friendly or unobtrusive in KSP 1.7 and older.)
 * Updated radiator potential on nebula Shock intake.
 * Updated drop tank heat tolerance selection to not use tank-bearing B9 options when MFT or RF are present.
+
 
 1.6.2
 
