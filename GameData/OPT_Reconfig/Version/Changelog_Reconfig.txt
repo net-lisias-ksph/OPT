@@ -1,8 +1,13 @@
 OPT Reconfig
 
-1.9.4 (WIP)
+1.10 (WIP)
 
 * Added drag cube fix for stock Mk2 drone core.
+* Added drag cube fix for H bodies.
+* Deprecated redundant RCS parts. The remaining parts now include all RCS mix options and color change where applicable. (Soft-deprecation. Craft files will not break.)
+* Fixed Kerbalism, NF Propulsion detection and erroneous Xenon tank type settings.
+* Not version 2.0.
+* Reduced EC demand in all MonoPropellant RCS.
 
 1.9.3 
 
