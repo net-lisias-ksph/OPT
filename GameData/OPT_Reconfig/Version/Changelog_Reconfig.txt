@@ -4,10 +4,13 @@ OPT Reconfig
 
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
+* Added a tech node after Covert Aeronautics. Compatible with CTT and Unkerballed Start.
 * Deprecated redundant RCS parts. The remaining parts now include all RCS mix options and color change where applicable. (Soft-deprecation. Craft files will not break.)
 * Fixed Kerbalism, NF Propulsion detection and erroneous Xenon tank type settings.
+* Moved J linear aerospike to same node as Stail linear aerospike.
 * Not version 2.0.
 * Reduced EC demand in all MonoPropellant RCS.
+* Several tiny tweaks.
 
 1.9.3 
 
