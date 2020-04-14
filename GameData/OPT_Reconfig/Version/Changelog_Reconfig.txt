@@ -4,6 +4,7 @@ OPT Reconfig
 
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
+* Added lift surface and RCS use throttle to aerodynamic OMS thruster.
 * Added a tech node after Covert Aeronautics. Compatible with CTT and Unkerballed Start.
 * Deprecated redundant RCS parts. The remaining parts now include all RCS mix options and color change where applicable. (Soft-deprecation. Craft files will not break.)
 * Fixed Kerbalism, NF Propulsion detection and erroneous Xenon tank type settings.
