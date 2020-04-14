@@ -5,137 +5,9 @@
 	MODULE
 	{
 		name = ModuleB9PartSwitch
-		moduleID = OPTRCSSwitch
-		switcherDescription = RCS Fuel Mix
-		switcherDescriptionPlural = RCS Fuel Mixes
-		switchInFlight = True
-		SUBTYPE
-		{
-			name = MonoPropellant
-			title = MonoPropellant
-			primaryColor = ResourceColorMonoPropellant
-			secondaryColor = ResourceColorMonoPropellant
-			defaultSubtypePriority = 3 // Highest is default
-			descriptionSummary = 
-			descriptionDetail = Uses MonoPropellant with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 140 s ASL / <color="yellow">280 s</color> Vac.
-			MODULE
-			{
-				IDENTIFIER
-				{
-					name = ModuleRCSFX
-				}
-				DATA
-				{
-					PROPELLANT
-					{
-						name = MonoPropellant
-						ratio = 1
-						resourceFlowMode = STAGE_PRIORITY_FLOW
-					}
-					PROPELLANT
-					{
-						name = ElectricCharge
-						ratio = 5
-						minResToLeave = 1.0
-					}
-					atmosphereCurve
-					{
-						key = 0 280
-						key = 1 140
-						key = 5 0.001
-					}
-				}
-			}
-		}
-		SUBTYPE
-		{
-			name = Nitronite
-			title = Nitronite
-			primaryColor = ResourceColorMonoPropellant
-			secondaryColor = ResourceColorMonoPropellant
-			defaultSubtypePriority = 1
-			descriptionSummary = 
-			descriptionDetail = Uses Nitronite with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 130 s ASL / <color="yellow">220 s</color> Vac.
-			MODULE
-			{
-				IDENTIFIER
-				{
-					name = ModuleRCSFX
-				}
-				DATA
-				{
-					PROPELLANT
-					{
-						name = Nitronite
-						ratio = 1
-						resourceFlowMode = STAGE_PRIORITY_FLOW
-					}
-					PROPELLANT
-					{
-						name = ElectricCharge
-						ratio = 5
-						minResToLeave = 1.0
-					}
-					atmosphereCurve
-					{
-						key = 0 200
-						key = 1 120
-						key = 5 0.001
-					}
-				}
-			}
-		}
-		SUBTYPE
-		{
-			name = Air
-			title = CompressedAtmosphere
-			primaryColor = LightGrey
-			secondaryColor = LightGrey
-			defaultSubtypePriority = 2
-			descriptionSummary = 
-			descriptionDetail = Uses pressurized air with supercharged catalyzer to raise both thrust and efficiency. Incredibly hot air may cause severe burns to exposed skin.<br><b>Isp:</b> 120 s ASL / <color="yellow">160 s</color> Vac.
-			MODULE
-			{
-				IDENTIFIER
-				{
-					name = ModuleRCSFX
-				}
-				DATA
-				{
-					PROPELLANT
-					{
-						name = CompressedAtmosphere
-						ratio = 1
-						resourceFlowMode = STAGE_PRIORITY_FLOW
-					}
-					PROPELLANT
-					{
-						name = ElectricCharge
-						ratio = 5
-						minResToLeave = 1.0
-					}
-					atmosphereCurve
-					{
-						key = 0 160
-						key = 1 100
-						key = 5 0.001
-					}
-				}
-			}
-		}
-	}
-}
-
-// BiProp RCS
-@PART:HAS[#manufacturer[OPT?Aerospace?Division],@MODULE[ModuleRCSFX]:HAS[#resourceName[LiquidFuel]]]:NEEDS[B9PartSwitch]
-{
-	@description ^= :$: <color="green">This part can change its RCS fuel mix.</color>
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		moduleID = OPTRCSSwitch
-		switcherDescription = RCS Fuel Mix
-		switcherDescriptionPlural = RCS Fuel Mixes
+		moduleID = OPTRCS
+		switcherDescription = RCS Mode
+		switcherDescriptionPlural = RCS Modes
 		switchInFlight = True
 		SUBTYPE
 		{
@@ -143,7 +15,6 @@
 			title = Kerolox
 			primaryColor = ResourceColorLiquidFuel
 			secondaryColor = ResourceColorOxidizer
-			defaultSubtypePriority = 2 // Highest is default
 			descriptionSummary = 
 			descriptionDetail = Uses the stock LiquidFuel & Oxidizer mix, and uses it very well.<br><b>Isp:</b> 140 s ASL / <color="yellow">260 s</color> Vac.
 			MODULE
@@ -181,8 +52,6 @@
 			title = PropLox
 			primaryColor = ResourceColorLqdHydrogen
 			secondaryColor = ResourceColorOxidizer
-			defaultSubtypePriority = 1
-			descriptionSummary = 
 			descriptionDetail = Uses the Propellium & Oxidizer mix.<br><b>Isp:</b> 136 s ASL / <color="yellow">340 s</color> Vac.
 			MODULE
 			{
@@ -209,6 +78,114 @@
 						key = 0 340
 						key = 1 136
 						key = 4 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = MonoPropellant
+			title = MonoPropellant
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			descriptionDetail = Uses MonoPropellant with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 140 s ASL / <color="yellow">280 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = MonoPropellant
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 280
+						key = 1 140
+						key = 5 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Nitronite
+			title = Nitronite
+			primaryColor = ResourceColorMonoPropellant
+			secondaryColor = ResourceColorMonoPropellant
+			descriptionDetail = Uses Nitronite with supercharged catalyzer to raise both thrust and efficiency.<br><b>Isp:</b> 130 s ASL / <color="yellow">220 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = Nitronite
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 200
+						key = 1 120
+						key = 5 0.001
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = Air
+			title = CompressedAtmosphere
+			primaryColor = LightGrey
+			secondaryColor = LightGrey
+			descriptionDetail = Uses pressurized air with supercharged catalyzer to raise both thrust and efficiency. Incredibly hot air may cause severe burns to exposed skin.<br><b>Isp:</b> 120 s ASL / <color="yellow">160 s</color> Vac.
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleRCSFX
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = CompressedAtmosphere
+						ratio = 1
+						resourceFlowMode = STAGE_PRIORITY_FLOW
+					}
+					PROPELLANT
+					{
+						name = ElectricCharge
+						ratio = 5
+						minResToLeave = 1.0
+					}
+					atmosphereCurve
+					{
+						key = 0 160
+						key = 1 100
+						key = 5 0.001
 					}
 				}
 			}
