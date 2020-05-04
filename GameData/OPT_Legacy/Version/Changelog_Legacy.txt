@@ -9,10 +9,11 @@ OPT Legacy Spaceplane Parts
   * Made J-81 closed cycle very EC demanding.
   * Nerfed J-60D closed cycle Isp.
   * Normalized EC ratios and Isp of LFO+EC engines.
+  * Other air-breathing performance changes.
 * Removed single quotes and "class" from part titles.
 * Misc part stats adjustments.
 * Updated DepthMask meshes to always be transparent. (Hopefully makes them friendly or unobtrusive in KSP 1.7 and older.)
-* Updated radiator potential on nebula Shock intake.
+* Updated radiator potential on Nebula Shock Intake.
 * Updated drop tank heat tolerance selection to not use tank-bearing B9 options when MFT or RF are present.
 
 

@@ -5,6 +5,7 @@ OPT Reconfig
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
 * Added lift surface and RCS use throttle to aerodynamic OMS thruster.
+* Added (Upgraded) support for Allista's Configurale Containers.
 * Added tank options for Stail Drone Core and Stail Fairing MonoPropellant Tank.
 * Added thermal upgrades for J nose, Stail Drone Core, Mk2 nose.
   * Made upgrade nodes themselves more informative in RnD view.
@@ -16,6 +17,7 @@ OPT Reconfig
 * Reduced EC demand in all MonoPropellant RCS.
 * Several tiny tweaks.
 
+
 1.9.3 
 
 * Added Kerbal Atomics detection to cryo tank/engine patch.
@@ -25,10 +27,12 @@ OPT Reconfig
 * Removed second lift surface module in J aerospike.
 * Updated Nebula scramjet mode for more fuel efficiency but more EC demanding.
 
+
 1.9.2
 
 * Adjust Covert Aero tech node's position and cost for Unkerballed Start.
 * Adjust Covert Aero tech node to require both/all parent nodes to unlock.
+
 
 1.9.1
 
@@ -39,6 +43,7 @@ OPT Reconfig
 * Removed lift surface from I series parts.
 * Updated Power Sphere "Tidal Force" to accept LH2O if CryoEngines is installed.
 * Warning: Tweakscale effects will no longer apply to B9-enhanced converters.
+
 
 1.9.0
 
@@ -64,6 +69,7 @@ OPT Reconfig
   * MonoPropellant, Nitronite, CompressedAtmosphere.
   * LiquidFuel + Oxidizer, Propellium + Oxidizer.
 * WarpJets also include alternators for producing CompressedAtmosphere for air-breathing RCS.
+
 
 1.8.0
 
@@ -124,6 +130,7 @@ OPT Reconfig
   * Options: Boron, Lithium, Lithium6, LqdDeuterium, LqdHe3, LqdHydrogen, LqdTritium.
   * Xenon option now fully treated as a fallback. Expect to be unable to use it in most cases.
 
+
 1.5.0
 
 * Added 1 deg of gimbal to Dark Drive.
@@ -176,6 +183,7 @@ WBI integration
 * Revised USI modules config thanks to Nicky21
 * Changed default tank setting on droptanks (in WBI mode) from Oxidizer to LiquidFuel
 
+
 1.3
 
 * Re-evaluated some bulkhead profiles:
@@ -185,12 +193,14 @@ WBI integration
 * Added non-spool secondary mode to ARI-75 engine (for vacuum friendly operation)
 * Slight increase to Dark Drive's RTG output
 
+
 1.2.5
 
 * Anti-collision for Modular Fuel Tanks.
 * Adjusted cryo tank ratios to playable levels, half of the suggested values by, and thanks to Sresk.
 * Nerf USI recyclers for J cabin, added recyclers to J, Stail, Avatar cockpits.
 * Removed flameout plume on HAE-02 engine. Scaling problem makes it as a flashbang and a health hazard.
+
 
 1.2.4
 
@@ -206,6 +216,7 @@ WBI integration
 * Raised KIS slot counts.
 * Disabled whitelist entries for OPT labs for experiments. Apparently this causes MOLE experiments to always or only require an OPT lab.
 
+
 1.2.3
 
 * Added missing science container and Crew Report experiment to J boarding ramp and J rear hatch
@@ -216,6 +227,7 @@ WBI integration
 * OPT parts will gain/use Atmosphere resource and not IntakeAtm simply if Pathfinder is installed
 * Added radiators to all cargo bays and hollow fuselage except ramps/tails
 * Remove second lift surface module from a 2.5m cockpit
+
 
 1.2.2
 
@@ -230,14 +242,17 @@ WBI integration
 * Fixed bulkhead profile in HAE-02 Mk2 engine
 * (Re)added Science Box storage for Dark Goo
 
+
 1.2.1
 
 * Fixed major error in version file
 * Removed giant smoke plumes from Mk2 engine
 
+
 1.2.0
 
 * NON-FAR aero patch; makes parts less draggy(tm)
+
 
 1.1.0
 
@@ -246,14 +261,17 @@ WBI integration
 * Added Kerbalism support including many B9 tank options for un-crewed parts
 * Added Near Future Propulsion support
 
+
 1.0.7
 
 * Fix J-92 plume problem
+
 
 1.0.6
 
 * CryoTanks options now depend on the presence of the "CryoEngines" folder, not "CryoTanks"
 * Oxidizer option now available for all parts
+
 
 1.0.5
 
@@ -262,6 +280,7 @@ WBI integration
 * Added USI habitation to OPT K cockpits
 * Removed old references to codename "OPT_DynoTune"
 * Add OPT labs to WBI experiment whitelist for usable labs
+
 
 1.0.4
 
