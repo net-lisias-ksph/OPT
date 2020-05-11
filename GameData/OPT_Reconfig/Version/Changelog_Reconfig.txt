@@ -5,7 +5,7 @@ OPT Reconfig
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
 * Added lift surface and RCS use throttle to aerodynamic OMS thruster.
-* Added (Upgraded) support for Allista's Configurale Containers.
+* Added (Upgraded) support for Allista's Configurable Containers.
 * Added tank options for Stail Drone Core and Stail Fairing MonoPropellant Tank.
 * Added thermal upgrades for J nose, Stail Drone Core, Mk2 nose.
   * Made upgrade nodes themselves more informative in RnD view.
@@ -16,6 +16,9 @@ OPT Reconfig
 * Not version 2.0.
 * Reduced EC demand in all MonoPropellant RCS.
 * Several tiny tweaks.
+* Updated Dark Goo:
+  * Boiloff rate is 0.2x as fast as before.
+  * Dark Drive now holds 3x as much.
 
 
 1.9.3 
