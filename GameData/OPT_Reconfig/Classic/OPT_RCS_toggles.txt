@@ -1,4 +1,3 @@
-// MonoProp RCS
 @PART:HAS[#manufacturer[OPT?Aerospace?Division],@MODULE[ModuleRCSFX]:HAS[#resourceName[MonoPropellant]]]:NEEDS[B9PartSwitch]
 {
 	@description ^= :$: <color="green">This part can change its RCS fuel mix.</color>
@@ -22,6 +21,7 @@
 				IDENTIFIER
 				{
 					name = ModuleRCSFX
+					runningEffectName = running
 				}
 				DATA
 				{
@@ -58,6 +58,7 @@
 				IDENTIFIER
 				{
 					name = ModuleRCSFX
+					runningEffectName = running
 				}
 				DATA
 				{
@@ -94,6 +95,7 @@
 				IDENTIFIER
 				{
 					name = ModuleRCSFX
+					runningEffectName = running
 				}
 				DATA
 				{
@@ -130,6 +132,7 @@
 				IDENTIFIER
 				{
 					name = ModuleRCSFX
+					runningEffectName = running
 				}
 				DATA
 				{
@@ -166,6 +169,7 @@
 				IDENTIFIER
 				{
 					name = ModuleRCSFX
+					runningEffectName = running
 				}
 				DATA
 				{
@@ -187,6 +191,26 @@
 						key = 1 100
 						key = 5 0.001
 					}
+				}
+			}
+		}
+	}
+}
+
+@PART[opt_oms_black]:NEEDS[B9PartSwitch,CommunityResourcePack]
+{
+	+MODULE[ModuleB9PartSwitch]:HAS[#moduleID[OPTRCS]]
+	{
+		@moduleID = OPTOMS
+		@switcherDescription = OMS Mode
+		@switcherDescriptionPlural = OMS Modes
+		@SUBTYPE,*
+		{
+			@MODULE
+			{
+				@IDENTIFIER
+				{
+					@runningEffectName = running_oms
 				}
 			}
 		}
