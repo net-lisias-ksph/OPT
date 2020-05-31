@@ -1,24 +1,28 @@
 OPT Reconfig
 
-1.10 (WIP)
+2.0 (WIP)
 
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
-* Added lift surface and RCS use throttle to aerodynamic OMS thruster.
+* Added lift surface and 2nd RCS module (seet to use throttle) to aerodynamic OMS thruster. You may need to replace this part on very craft that has it so that it behaves properly.
 * Added (Upgraded) support for Allista's Configurable Containers.
+* Added Kerbalism buffs for science data and samples storage.
+* Added Covert Aero II tech node for even more advanced OPT engines.
+ * Moved Dark Drive and its new friend, the Bubble, into there.
 * Added tank options for Stail Drone Core and Stail Fairing MonoPropellant Tank.
+* Added/updated subcategory icons.
 * Added thermal upgrades for J nose, Stail Drone Core, Mk2 nose.
   * Made upgrade nodes themselves more informative in RnD view.
 * Added a tech node after Covert Aeronautics. Compatible with CTT and Unkerballed Start.
 * Deprecated redundant RCS parts. The remaining parts now include all RCS mix options and color change where applicable. (Soft-deprecation. Craft files will not break.)
-* Fixed Kerbalism, NF Propulsion detection and erroneous Xenon tank type settings.
-* Moved J linear aerospike to same node as Stail linear aerospike.
-* Not version 2.0.
+* Fixed Kerbalism detection, NF Propulsion detection and erroneous Xenon tank type settings.
+* Fixed erroneous static thrust problem on HAE-02 and J-92 Nebula jet engines.
+* Moved J linear aerospike and HAE-02 jet engine to Hypersonic Flight tech node alongside the Stail linear aerospike.
 * Reduced EC demand in all MonoPropellant RCS.
 * Several tiny tweaks.
 * Updated Dark Goo:
   * Boiloff rate is 0.2x as fast as before.
-  * Dark Drive now holds 3x as much.
+  * Dark Drive now holds 3x as much. Its mileage should be quite great now.
 
 
 1.9.3 
