@@ -30,7 +30,7 @@ OPT Legacy Spaceplane Parts
 
 1.6.1
 
-* Removed NF Propulsion integration from warpJet SAGE. There are a few reasons why it cannot happen with this engine as-is.
+* Removed NF Propulsion integration from WarpJet SAGE. There are a few reasons why it cannot happen with this engine as-is.
 
 
 1.6.0

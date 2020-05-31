@@ -8,7 +8,7 @@ OPT Reconfig
 * Added (Upgraded) support for Allista's Configurable Containers.
 * Added Kerbalism buffs for science data and samples storage.
 * Added Covert Aero II tech node for even more advanced OPT engines.
- * Moved Dark Drive and its new friend, the Bubble, into there.
+  * Moved Dark Drive and its new friend, the Bubble, into there.
 * Added tank options for Stail Drone Core and Stail Fairing MonoPropellant Tank.
 * Added/updated subcategory icons.
 * Added thermal upgrades for J nose, Stail Drone Core, Mk2 nose.
