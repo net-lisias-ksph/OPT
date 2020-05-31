@@ -1,38 +1,26 @@
 // Cockpit intakes
 @PART[b_cockpit_qs,j_cockpit_qs,j_6m_cockpit]:FOR[OPT_Reconfig]
 {
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 5
-		@maxAmount = 5
-	}
 	+MODULE[ModuleResourceIntake]
 	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
-	%RESOURCE[Atmosphere]
+	+RESOURCE[IntakeAir]
 	{
-		%amount = 5
-		%maxAmount = 5
+		@name = Atmosphere
 	}
 }
 @PART[k_10m_cockpit,k_10m_cockpit_legacy,k_10m_cockpit_custom]:FOR[OPT_Reconfig]
 {
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 6
-		@maxAmount = 6
-	}
-	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
+	+MODULE[ModuleResourceIntake]
 	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
-	%RESOURCE[Atmosphere]
+	+RESOURCE[IntakeAir]
 	{
-		%amount = 6
-		%maxAmount = 6
+		@name = Atmosphere
 	}
 }
 @PART[l_8m_cockpit]:FOR[OPT_Reconfig]
@@ -42,10 +30,9 @@
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
-	%RESOURCE[Atmosphere]
+	+RESOURCE[IntakeAir]
 	{
-		%amount = 7
-		%maxAmount = 7
+		@name = Atmosphere
 	}
 }
 
@@ -64,7 +51,7 @@
 }
 
 // WarpJet engines
-@PART[opt_sage]
+@PART[opt_sage|opt_vtol_wrap?2|opt_vtol_jump?2]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
 	{
