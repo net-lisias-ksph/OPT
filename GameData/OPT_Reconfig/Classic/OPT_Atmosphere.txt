@@ -1,55 +1,41 @@
-// Cockpit intakes
-@PART[b_cockpit_qs,j_cockpit_qs,j_6m_cockpit]:FOR[OPT_Reconfig]
-{
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 5
-		@maxAmount = 5
-	}
-	+MODULE[ModuleResourceIntake]
-	{
-		@resourceName = Atmosphere
-		%checkForOxygen = false
-	}
-	%RESOURCE[Atmosphere]
-	{
-		%amount = 5
-		%maxAmount = 5
-	}
-}
-@PART[k_10m_cockpit,k_10m_cockpit_legacy,k_10m_cockpit_custom]:FOR[OPT_Reconfig]
-{
-	@RESOURCE[IntakeAir]
-	{
-		@amount = 6
-		@maxAmount = 6
-	}
-	+MODULE[ModuleResourceIntake]:NEEDS[CommunityResourcePack]
-	{
-		@resourceName = Atmosphere
-		%checkForOxygen = false
-	}
-	%RESOURCE[Atmosphere]
-	{
-		%amount = 6
-		%maxAmount = 6
-	}
-}
-@PART[l_8m_cockpit]:FOR[OPT_Reconfig]
+@PART[b_cockpit_qs,j_cockpit_qs,j_6m_cockpit]
 {
 	+MODULE[ModuleResourceIntake]
 	{
 		@resourceName = Atmosphere
 		%checkForOxygen = false
 	}
-	%RESOURCE[Atmosphere]
+	+RESOURCE[IntakeAir]
 	{
-		%amount = 7
-		%maxAmount = 7
+		@name = Atmosphere
+	}
+}
+@PART[k_10m_cockpit,k_10m_cockpit_legacy,k_10m_cockpit_custom]
+{
+	+MODULE[ModuleResourceIntake]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+	}
+}
+@PART[l_8m_cockpit]
+{
+	+MODULE[ModuleResourceIntake]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
 	}
 }
 
-//Stack intakes
+//Stackintakes
 @PART[mk2_ramIntake|opt_s2intake]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
@@ -63,7 +49,7 @@
 	}
 }
 
-// WarpJet engines
+
 @PART[opt_sage]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
@@ -75,55 +61,11 @@
 	{
 		@name = Atmosphere
 	}
-	+RESOURCE[IntakeAir]
-	{
-		@name = CompressedAtmosphere
-	}
-	@MODULE[ModuleEnginesFX],*
+	@MODULE[ModuleEnginesFX]
 	{
 		@PROPELLANT[IntakeAir]
 		{
 			@name = Atmosphere
-		}
-	}
-	MODULE
-	{
-		name = ModuleAlternator
-		engineName = WJOpen
-		outputName = Compressor (Open)
-		outputUnits = CAtm/s
-		RESOURCE
-		{
-			name = CompressedAtmosphere
-			rate = 10
-		}
-	}
-	MODULE
-	{
-		name = ModuleAlternator
-		engineName = WJClosed
-		outputName = Compressor (Closed)
-		outputUnits = CAtm/s
-		RESOURCE
-		{
-			name = CompressedAtmosphere
-			rate = 4
-		}
-	}
-	@MODULE[ModuleB9PartSwitch]:HAS[#moduleID[DynoTune]]
-	{
-		@SUBTYPE,*
-		{
-			@MODULE
-			{
-				@DATA
-				{
-					@PROPELLANT[IntakeAir]
-					{
-						@name = Atmosphere
-					}
-				}
-			}
 		}
 	}
 }
@@ -138,30 +80,188 @@
 	+RESOURCE[IntakeAir]
 	{
 		@name = Atmosphere
-		@amount = 400
 		@maxAmount = 400
-	}
-	+RESOURCE[IntakeAir]
-	{
-		@name = CompressedAtmosphere
-	}
-	MODULE
-	{
-		name = ModuleAlternator
-		engineName = WJOpen
-		outputName = Compressor (Open)
-		outputUnits = CAtm/s
-		RESOURCE
-		{
-			name = CompressedAtmosphere
-			rate = 30
-		}
 	}
 	@MODULE[ModuleEnginesFX]
 	{
 		@PROPELLANT[IntakeAir]
 		{
 			@name = Atmosphere
+		}
+	}
+}
+
+@PART[opt_vtol_rudder*]:NEEDS[ClassicStock]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+		@amount *= 10
+		@maxAmount *= 10
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = CompressedAtmosphere
+		@amount = 0
+		@maxAmount *= 5
+	}
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[FanElectric]]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+			DrawGauge = True
+		}
+		@PROPELLANT[ElectricCharge]
+		{
+			@ratio = 1
+		}
+	}
+	@MODULE[ModuleRCSFX]
+	{
+		@resourceName = CompressedAtmosphere
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		outputName = Compressor (Open)
+		outputUnits = CG/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 10.0
+		}
+	}
+}
+@PART[opt_vtol_heli*]:NEEDS[ClassicStock]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+	}
+	@MODULE[ModuleEnginesFX]:HAS[#engineID[FanElectric]]
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+			DrawGauge = True
+		}
+		@PROPELLANT[ElectricCharge]
+		{
+			@ratio = 1
+		}
+	}
+}
+
+@PART[opt_vtol_wrapj2|opt_vtol_jumpa2]:NEEDS[ClassicStock]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+		}
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+		@amount *= 10
+		@maxAmount *= 10
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = CompressedAtmosphere
+		@amount = 0
+		@maxAmount *= 5
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJOpen
+		outputName = Compressor (Open)
+		outputUnits = CG/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 20
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJClosed
+		outputName = Compressor (Closed)
+		outputUnits = CG/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 8
+		}
+	}
+}
+@PART[opt_vtol_wrapk2|opt_vtol_wrapl2]:NEEDS[ClassicStock]
+{
+	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
+	{
+		@resourceName = Atmosphere
+		%checkForOxygen = false
+	}
+	@MODULE[ModuleEnginesFX],*
+	{
+		@PROPELLANT[IntakeAir]
+		{
+			@name = Atmosphere
+		}
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = Atmosphere
+		@amount *= 10
+		@maxAmount *= 10
+	}
+	+RESOURCE[IntakeAir]
+	{
+		@name = CompressedAtmosphere
+		@amount = 0
+		@maxAmount *= 5
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJOpen
+		outputName = Compressor (Open)
+		outputUnits = CG/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 30
+		}
+	}
+	MODULE
+	{
+		name = ModuleAlternator
+		engineName = WJClosed
+		outputName = Compressor (Closed)
+		outputUnits = CG/s
+		RESOURCE
+		{
+			name = CompressedAtmosphere
+			rate = 12
 		}
 	}
 }
