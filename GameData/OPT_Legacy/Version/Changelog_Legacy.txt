@@ -1,8 +1,14 @@
 OPT Legacy Spaceplane Parts
 
-1.7.0 (WIP)
+2.0 (WIP)
 
 * Added 'brake' tag to airbrake parts. They were not search-able.
+* Added new suites of parts:
+  * 16 VTOL engines. Compatible with WBI Kerbal Actuators and are feature-rich.
+  * 2x "Questor" series main wings (Type D, E) .
+  * 2x Stabilizers (canards, type C, D).
+  * 4x "Fighter" series winglets (Types D, E, F, G) (and associated elevons).
+* Moved ARI-73 engine from Aerospace Tech to Nuclear Propulsion tech node. (Advanced Nuclear Propulsion if CTT installed. The LPR-02 "Irradiance" VTOL engine is there with it.)
 * Normalized and lowered EC demands in cockpit RCS thrusters.
 * Rebalanced engines:
   * Made ARI-73 and air-breathing engines stronger (or appropriately strong) in thicker atmospheres.
