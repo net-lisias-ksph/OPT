@@ -1,6 +1,6 @@
 OPT Reconfig
 
-2.0 (WIP)
+2.0
 
 * Added drag cube fix for stock Mk2 drone core.
 * Added drag cube fix for H bodies.
