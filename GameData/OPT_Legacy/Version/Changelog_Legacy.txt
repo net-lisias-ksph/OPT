@@ -3,6 +3,8 @@ OPT Legacy Spaceplane Parts
 2.0 (WIP)
 
 * Added 'brake' tag to airbrake parts. They were not search-able.
+* Added K Drone Core with RCS.
+  * Added RCS thrusters to K, KH Inline SAS parts.
 * Added new suites of parts:
   * 16 VTOL engines. Compatible with WBI Kerbal Actuators and are feature-rich.
   * 2x "Questor" series main wings (types D, E).
