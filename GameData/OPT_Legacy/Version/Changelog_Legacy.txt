@@ -1,10 +1,11 @@
 OPT Legacy Spaceplane Parts
 
-2.0 (WIP)
+2.0
 
 * Added 'brake' tag to airbrake parts. They were not search-able.
 * Added K Drone Core with RCS.
   * Added RCS thrusters to K, KH Inline SAS parts.
+* Added K crew compartment and science lab.
 * Added new suites of parts:
   * 16 VTOL engines. Compatible with WBI Kerbal Actuators and are feature-rich.
   * 2x "Questor" series main wings (types D, E).
@@ -20,6 +21,7 @@ OPT Legacy Spaceplane Parts
   * Other air-breathing performance changes.
 * Removed single quotes and "class" from part titles.
 * Misc part stats adjustments.
+* Updated OPT flag.
 * Updated DepthMask meshes to always be transparent. (Hopefully makes them friendly or unobtrusive in KSP 1.7 and older.)
 * Updated radiator potential on Nebula Shock Intake.
 * Updated drop tank heat tolerance selection to not use tank-bearing B9 options when MFT or RF are present.
