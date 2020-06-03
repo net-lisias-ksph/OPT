@@ -153,6 +153,7 @@
 	}
 }
 
+// Fan engines can change their turbine fuel mix
 @PART[opt_vtol_hc1|opt_vtol_bubble1|opt_vtol_jumpa1]:NEEDS[B9PartSwitch]
 {
 	@description ^= :$: <br><color="green">This part can change its turbine fuel mix.</color>
@@ -168,8 +169,7 @@
 			name = LF
 			title = LF + Air
 			primaryColor = ResourceColorLiquidFuel
-			secondaryColor = LightGrey 
-			defaultSubtypePriority = 2
+			secondaryColor = LightGrey
 			descriptionSummary = Uses LiquidFuel + IntakeAir
 			descriptionDetail = The default mix. Uses LF and ambient Oxygen to drive combustion and requires the remaining ambient Nitrogen for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
 			
@@ -203,7 +203,6 @@
 			title = LFO + Atm
 			primaryColor = ResourceColorLiquidFuel
 			secondaryColor =  ResourceColorOxidizer
-			defaultSubtypePriority = 1
 			descriptionSummary = Uses LFO + Atmosphere
 			descriptionDetail = Uses onboard LFO to drive combustion but still requires an atmosphere for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
 			
@@ -232,6 +231,92 @@
 					{
 						name = Atmosphere
 						ratio = 14
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+	}
+}
+@PART[opt_vtol_heli1]:NEEDS[B9PartSwitch]
+{
+	@description ^= :$: <br><color="green">This part can change its turbine fuel mix.</color>
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		moduleID = FuelMix
+		switcherDescription = Turbine Fuel Mix
+		switcherDescriptionPlural = Turbine Fuel options
+		switchInFlight = True
+		SUBTYPE
+		{
+			name = LF
+			title = LF + Air
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor = LightGrey 
+			defaultSubtypePriority = 2
+			descriptionSummary = Uses LiquidFuel + IntakeAir
+			descriptionDetail = The default mix. Uses LF and ambient Oxygen to drive combustion and requires the remaining ambient Nitrogen for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = FanLiquid
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 1
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = IntakeAir
+						ratio = 27
+						ignoreForIsp = True
+					}
+				}
+			}
+		}
+		SUBTYPE
+		{
+			name = LFO
+			title = LFO + Atm
+			primaryColor = ResourceColorLiquidFuel
+			secondaryColor =  ResourceColorOxidizer
+			defaultSubtypePriority = 1
+			descriptionSummary = Uses LFO + Atmosphere
+			descriptionDetail = Uses onboard LFO to drive combustion but still requires an atmosphere for working fluid.<br><color="orange">When in flight, shutdown engine before switching.</color>
+			
+			MODULE
+			{
+				IDENTIFIER
+				{
+					name = ModuleEnginesFX
+					engineID = FanLiquid
+				}
+				DATA
+				{
+					PROPELLANT
+					{
+						name = LiquidFuel
+						ratio = 0.45
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = Oxidizer
+						ratio = 0.55
+						DrawGauge = True
+					}
+					PROPELLANT
+					{
+						name = Atmosphere
+						ratio = 27
 						ignoreForIsp = True
 					}
 				}
