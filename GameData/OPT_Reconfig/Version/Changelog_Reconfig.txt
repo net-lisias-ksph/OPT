@@ -1,5 +1,10 @@
 OPT Reconfig
 
+2.0.1
+
+* Added missing SAS module to K drone core.
+* Fixed Hydrolox tank issue.
+
 2.0
 
 * Added drag cube fix for stock Mk2 drone core.
