@@ -1,5 +1,10 @@
 OPT Reconfig
 
+2.0.3
+
+* Fixed Configurable Containers detection.
+
+
 2.0.2
 
 * Added missing turbine fuel mix options. The following VTOL engines can switch (in air-breathing mode) between LiquidFuel + IntakeAir and LFO + IntakeAtm.
