@@ -1,5 +1,10 @@
 OPT Legacy Spaceplane Parts
 
+2.0.1
+
+* Added tags to Avatar Shuttle Cockpit. It was not appearing under CCK.
+* Added missing SAS module to K Drone Core.
+
 2.0
 
 * Added 'brake' tag to airbrake parts. They were not search-able.
