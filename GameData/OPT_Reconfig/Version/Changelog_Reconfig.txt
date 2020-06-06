@@ -1,5 +1,11 @@
 OPT Reconfig
 
+2.0.4
+
+* Fixed undefined value problem with Power Spheres for WBI integration.
+* Updated WarpJet (air-breathing) rescale patch to include WarpJet VTOl engines.
+
+
 2.0.3
 
 * Fixed Configurable Containers detection.
