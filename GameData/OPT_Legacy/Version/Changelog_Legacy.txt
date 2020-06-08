@@ -4,6 +4,7 @@ OPT Legacy Spaceplane Parts
 
 * Added tags to Avatar Shuttle Cockpit. It was not appearing under CCK.
 * Added missing SAS module to K Drone Core.
+* Fixed CoL in Winglet Type D.
 
 2.0
 
