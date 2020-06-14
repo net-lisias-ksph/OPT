@@ -1,5 +1,11 @@
 OPT Reconfig
 
+2.0.5 (WIP)
+
+* Fixed missing support for Connected Living Spaces.
+* Fixed WarpJet VTOL engines not using IntakeAtm when CRP is present.
+
+
 2.0.4
 
 * Fixed undefined value problem with Power Spheres for WBI integration.
