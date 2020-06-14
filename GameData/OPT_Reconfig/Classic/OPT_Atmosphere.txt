@@ -51,7 +51,7 @@
 }
 
 // WarpJet engines
-@PART[opt_sage|opt_vtol_wrap?2|opt_vtol_jump?2]
+@PART[opt_sage|opt_vtol_wrap?2|opt_vtol_jump?2]:AFTER[OPT_Legacy]
 {
 	+MODULE[ModuleResourceIntake]:HAS[#resourceName[IntakeAir]]
 	{
