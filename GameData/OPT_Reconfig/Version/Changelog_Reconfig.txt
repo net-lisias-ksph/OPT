@@ -7,11 +7,13 @@ OPT Reconfig
 * Fixed low or imbalanced heat limits in Mk2 ram intake.
 * Fixed WarpJet VTOL engines not using IntakeAtm when CRP is present.
 * Fixed wings not getting WBI tanks.
+* Raised K crew capacities to 6.
 * Updated KIS compatibility.
   * KIS feature no longer needs WBI Pathfinder installed but still work well with it.
   * H body and most? of K body get KIS space. Space is reduced when Pathfinder not installed as to not overlap a lot with fuel space.
 * Updated heat limit upgrades.
   * Fixed minor issues or shortcomings.
+  * Fixed Stail Drone core not losing Ablator tank type when MFT/RF installed.
   * Split Mk2 heat upgrade into 2 upgrades.
 
 
