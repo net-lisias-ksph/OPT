@@ -1,9 +1,18 @@
 OPT Reconfig
 
-2.0.5 (WIP)
+2.0.5
 
+* Added CryoEngines support for VTOL engines.
 * Fixed missing support for Connected Living Spaces.
+* Fixed low or imbalanced heat limits in Mk2 ram intake.
 * Fixed WarpJet VTOL engines not using IntakeAtm when CRP is present.
+* Fixed wings not getting WBI tanks.
+* Updated KIS compatibility.
+  * KIS feature no longer needs WBI Pathfinder installed but still work well with it.
+  * H body and most? of K body get KIS space. Space is reduced when Pathfinder not installed as to not overlap a lot with fuel space.
+* Updated heat limit upgrades.
+  * Fixed minor issues or shortcomings.
+  * Split Mk2 heat upgrade into 2 upgrades.
 
 
 2.0.4
