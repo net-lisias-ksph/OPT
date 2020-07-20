@@ -3,10 +3,11 @@ OPT Legacy Spaceplane Parts
 2.0.1 (WIP)
 
 * Added tags to Avatar Shuttle Cockpit. It was not appearing under CCK.
-
+* Added Avatar inline SAS/RCS and Avatar short hollow fuselage.
 * Added missing SAS module to K Drone Core.
 * Fixed CoL in Winglet Type D.
-* Fixed texture problems in Legacy Wings II.
+* Fixed texture and material problems in Legacy Wings II.
+* Fixed DepthMask meshes' default material when Restock not installed.
 * Raised crew capacity from 4 to 6 in K cabin and lab.
 
 
