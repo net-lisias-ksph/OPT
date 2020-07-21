@@ -1,7 +1,8 @@
 OPT Legacy Spaceplane Parts
 
-2.1 (WIP)
+2.1
 
+* Added RCS thrusters to Humpback SAS.
 * Added tags to Avatar Shuttle Cockpit. It was not appearing under CCK.
 * Added Avatar: inline SAS/RCS; short hollow fuselage; short tank.
 * Added Stail: inline SAS/RCS; short tank.
@@ -9,6 +10,7 @@ OPT Legacy Spaceplane Parts
 * Fixed CoL in Winglet Type D.
 * Fixed texture and material problems in Legacy Wings II.
 * Fixed DepthMask meshes' default material when Restock not installed.
+* Fixed drag cubes in some Avatar parts.
 * Raised crew capacity from 4 to 6 in K cabin and lab.
 
 
