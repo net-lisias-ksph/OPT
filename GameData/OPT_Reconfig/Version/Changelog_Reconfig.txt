@@ -1,9 +1,9 @@
 OPT Reconfig
 
-2.0.6 (WIP)
+2.0.6
 
 * Added stack nodes to KH fuselage for mounting payloads without causing CoM offset.
-  * Added B9 switcher for these stack nodes and for KH inline SAS.
+  * Added B9 switcher for these stack nodes and for KH inline SAS and cargo tails.
 * Changed Covert Aeronautics tech nodes to hide if empty (when obscure tech trees are installed and if they move OPT end-game parts).
 * Fixed B9PS RCS options to properly need or not need CRP where appropriate.
 * Some housekeeping.
