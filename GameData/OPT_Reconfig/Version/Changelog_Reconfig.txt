@@ -6,6 +6,7 @@ OPT Reconfig
   * Added B9 switcher for these stack nodes and for KH inline SAS and cargo tails.
 * Changed Covert Aeronautics tech nodes to hide if empty (when obscure tech trees are installed and if they move OPT end-game parts).
 * Fixed B9PS RCS options to properly need or not need CRP where appropriate.
+* Fixed missing Dark Science in K lab.
 * Some housekeeping.
 
 
