@@ -1,5 +1,10 @@
 OPT Reconfig
 
+2.0.7
+
+* Finally understood and fixed the KerbalAtomics/OPTLH2O problem.
+
+
 2.0.6
 
 * Added stack nodes to KH fuselage for mounting payloads without causing CoM offset.
