@@ -1,5 +1,14 @@
 OPT Reconfig
 
+2.1.0
+
+* Absorbed and unified configs and other resources from OPT Main (now Continued).
+  * Agencies with updated logos.
+  * Flags. New and replaced ones.
+* Added colors to B9 tank options for NF Propulsion.
+* Added Water to Rational Resources B9 tank options.
+
+
 2.0.7
 
 * Finally understood and fixed the KerbalAtomics/OPTLH2O problem.
