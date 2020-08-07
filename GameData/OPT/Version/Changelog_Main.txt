@@ -1,0 +1,8 @@
+OPT Continued
+
+2.1.0
+
+* Deleted antiquated plugin bundles.
+* Deleted MM patches folder. Salvaged configs moved to OPT Reconfig.
+* Deleted flags. They are replaced and moved to OPT Reconfig.
+* Updated Agency logos and moved to OPT Reconfig.

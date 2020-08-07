@@ -1,0 +1,25 @@
+{
+	"NAME":"OPT Reconfig",
+	"URL":"https://raw.githubusercontent.com/StoneBlue/OPT_Streamlined/master/GameData/OPT/Version/OPTMain.version",
+	"DOWNLOAD":"https://spacedock.info/mod/1808/OPT%20Continued",
+	"CHANGE_LOG_URL":"https://raw.githubusercontent.com/StoneBlue/OPT_Streamlined/master/GameData/OPT/Version/Changelog_Main.txt",
+	"GITHUB":
+	{
+		"USERNAME":"StoneBlue",
+		"REPOSITORY":"https://github.com/StoneBlue/OPT_Streamlined",
+		"ALLOW_PRE_RELEASE":true,
+	},
+	"VERSION":
+	{
+		"MAJOR":2,
+		"MINOR":1,
+		"PATCH":0,
+		"BUILD":0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":9,
+		"PATCH":1
+	}
+}
