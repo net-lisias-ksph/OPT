@@ -1,5 +1,11 @@
 OPT Legacy Spaceplane Parts
 
+2.1.1
+
+* Deleted files concerning agency and categories. Moved to OPT Reconfig.
+* Updated VIsp patches to not activate when KSP Interstellar is installed.
+
+
 2.1
 
 * Added RCS thrusters to Humpback SAS.
