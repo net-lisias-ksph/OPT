@@ -1,5 +1,25 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2017-0507: 1.9.9 (K.Yeon) for KSP 1.2.2
+	+ OPT v1.9.9
+		- Fixed ModularFuelTank config file, MFT is now properly supported. *MFT will break OPT stock crafts because it automatically replaces all the preconfigured fuel tanks.
+		- Added line vesselType = Probe to J drone cores, added line vesselType = Plane to all cockpits
+		- Fixed K cockpit's light not working
+		- J-92 engine (schramjet) no longer uses fuel from other 'staged' or 'stage disabled' fueltanks. (thanks Flashblade!)
+		- Added IVA for J Crew (should hold 10 kerbals but due to some issue it still only hold 8, if anyone find out why, please let me know :))
+		- Added IVA for ISL, ISP and Phoenix Cockpit
+		- Added support for CCK (allows OPT to have it's own tab in SPH/VAB)
+		- Changed Name tag for engines to OPT-E, wing parts to OPT-W for better organization when inside OPT's own category (for CCK)
+		- Cockpit's reaction wheel torque re balanced (mostly reduced yaw and pitch).
+		- Dark Drive's atmospheric output increased from 30% to 50%
+		- OPT wing control surface lift increased by 50% (because many report that they are not effective)
+		- Updated Firespitter and ModuleManager latest release
+		- Added Kh cargo, hollow fuselage, cargo ramp (6 parts)
+		- Added H fuselage parts
+		- Removed fuel options from J boarding ramp
+		- All tanks using real fuel volume increased by 400%
+		- Added nodes to K&KH 6m parts for h fuselage attachment
+		- REMOVED BUNDLED ASET PROPS, RASTERPROPMONITOR!!!!!!!!!!!!!!!! PLEASE DOWNLOAD THEM THROUGH THEIR OFFICIAL DOWNLOAD PAGE!
 * 2016-1215: 1.9.2 (K.Yeon) for KSP 1.2
 	+ OPT v1.9.2
 		- Added K 3m Fueltank

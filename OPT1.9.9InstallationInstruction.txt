@@ -1,0 +1,19 @@
+Updating from 1.9
+Does not require to delete old OPT folder, but still recommended, otherwise unused textures will use up some of your hard drive space. If deleted, follow below step. If not, follow below step and choose replace all.
+
+Once you have done the above or new OPT user, then:
+
+Drag downloaded .zip file to your ksp directory (same folder as KSP.exe)
+Rightclick the .zip file, select "extract here" option.
+Choose to replace all if your unsure about your Firespitter/ModuleManager versions.
+
+If you are experienced with modding, just drag the "OPT" folder inside your zip file's GameData folder, and place it to
+your GameData folder.
+Note that OPT requires ModuleManager and Firespitter plugin.
+
+If you wish for your OPT cockpits IVA have instruments, please download the newest version of ASET prop, ASET avionics and Raster Prop Monitor, links below:
+
+https://github.com/Mihara/RasterPropMonitor/releases/
+http://forum.kerbalspaceprogram.com/index.php?/topic/116430-aset-props-pack-v14-for-the-modders-who-create-iva/
+http://forum.kerbalspaceprogram.com/index.php?/topic/116479-aset-avionics-pack-v-20-for-the-modders-who-create-iva/
+
