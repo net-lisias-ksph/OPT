@@ -1,5 +1,18 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2017-0725: 2.0 (K.Yeon) for KSP 1.2.2
+	+ OPT v2.0 (for KSP 1.3):
+		- Added several new RCS parts
+		- Added IVA for J science lab and H crew cabin.
+		- Fixed JSL, JHT, JQS and KSP IVA windows (was 100% transparent).
+		- Changed KH cargo/fuselage's inner node upward by 0.61, so it's centered for 3.75m parts.
+		- Further reduced lifting body lift value by up to 10%
+		- Cockpit and nose part's lift value reduced by 40%
+		- Fixed h fuselage's lift value (reduced)
+		- Applied all previous bug fix patches (missing h fuselage fuel and missing tech)
+		- Fixed base mass value for MFT (set to -1)
+		- Nebula engine(2.5m engine)'s Centre of Mass shifted forward by 1.5 (since the engine's main body isn't modelled)
+		- Added TACLS for h crew cabins
 * 2017-0507: 1.9.9 (K.Yeon) for KSP 1.2.2
 	+ OPT v1.9.9
 		- Fixed ModularFuelTank config file, MFT is now properly supported. *MFT will break OPT stock crafts because it automatically replaces all the preconfigured fuel tanks.

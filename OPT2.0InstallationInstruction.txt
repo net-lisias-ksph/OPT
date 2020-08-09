@@ -1,0 +1,26 @@
+Updating from 1.9
+Does not require to delete old OPT folder, but still recommended, otherwise unused textures will use up some of your hard drive space. If deleted, follow below step. If not, follow below step and choose replace all.
+
+Once you have done the above or new OPT user, then:
+
+
+Simple instruction:
+
+Drag the GameData folder inside the .zip file into your ksp directory (same folder as KSP.exe)
+Goto the GameData folder, delete all but keep the newest version of ModuleManager.dll (should be above 2.8.1).
+Install RasterPropMonitor, ASET Prop pack, ASET Avionics for IVA instruments.
+
+Links:
+RasterPropMonitor: https://github.com/Mihara/RasterPropMonitor/releases/
+ASET Prop: https://spacedock.info/mod/1204/ASET%20Props
+ASET Avionics: https://spacedock.info/mod/1213/ASET%20Avionics
+
+
+VERY DETAILED INSTRUCTION FOR FIRST TIME MODDERS:
+https://www.youtube.com/watch?v=qCiUUyjauWc
+
+
+If you have any questions, you can ask a question on OPT's forum page: http://forum.kerbalspaceprogram.com/index.php?/topic/87956-122-opt-space-plane-thread/
+
+Thanks for downloading OPT, Enjoy!
+
