@@ -89,3 +89,8 @@ V1.6
 	- 3 new aircraft added
 	- Updated Module Manager (2.5.10)
 	- Updated Firespitter.dll on 22/02/2015
+V1.6.9
+	- Rebalance for v1.0.2
+	- Added few WIP IVAs
+	- Remodeled wing parts
+	- turboramjet only have 1 mode
