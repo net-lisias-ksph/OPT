@@ -1,5 +1,57 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2016-1030: 1.9.0 (K.Yeon) for KSP 1.0.4
+	+ OPT 1.9.0:
+		- Increased all liquid fuel tank capacity by 25%
+		- Increased J-HT cockpit's fuel capacity by 100%
+		- Mass rounding to 2 decimals
+		- Fixed new ILS cockpit's collider issue
+		- Lot's of name changes for consistency
+		- Changed k cockpit's max intake air amount to 5
+		- Added "standalone = True" to J rcs, J nose
+	+ Test release 4:
+		- ILS crew reduced from 5 to 3
+		- ISP crew reduced from 5 to 3
+		- Added work in progress internals
+		- Added ASET's prop for Mk2 cockpit for testing purpose
+		- Added untextured IVA for all crewed parts
+		- The newer mk2_cockpit, ils_cockpit, and j_cockpit has been renamed to: mk2_cockpitv2, ils_cockpitv2, and j_cockpitv2
+		- Updated prebuilt crafts to 3: ATXJet, Kannam II SSTO and Balari V SSTO
+		- Many parts price and tech rebalanced
+		- Added lights to parts with window
+		- Added emissive to J aerospike
+		- Added and adjusted CLS, default fuel, MFT, RF, TACLS mm config
+	+ Test release 3:
+		- Added a version of J QS cockpit without intake
+		- Added the Phoenix, ILS and ISP cockpit
+		- Changed engine's mesh= to model {}
+		- Taken out the unused cockpit IVAs
+	+ Test release 2:
+		- Added K Parts (10 in total)
+		- Added 3 test crafts (1 jet, 2 ssto (I tested the ssto both go make into 80km orbit and back))
+		- added indentation and some spacing to config files
+		- added {node_attach = 2.3, 0.0, 0.0, 0.0, 0.0, 0.0, 2} to j fuel Tank 2m, 4m service bay and deployment bay
+		- Added fuel switch to J deployment bay, service bay, inline docking port, inline large docking port.
+		- part's with animation lift values adjusted. (recalculated from closed position instead of open)
+		- J heat resistant nose moved to Fuel tank category, added kerbnet access
+		- Moved J tail to fuel tank category
+		- Added (stagingIcon = DECOUPLER_HOR; staged = False; stagingEnabled = False) to inline Docking ports, moved to coupling
+		- J service bay, cargo bay moved to payload
+		- Added kerbnet and experiment management to J lab
+		- Added crew report to J crew, added useageReqMask to crew report
+		- Changed J Large docking port disk to no attach
+		- Fixed J Science node from 2.003 to 2
+		- Added fuel switch to J engine mount, 2.5m tail and moved to fueltank category
+		- Got the DroneCore with RCS to show up (don’t know how)
+		- Fixed J aerodynamic tail's node
+		- Changed ModuleRCS to ModuleRCSFX
+	+ Test release 1: (from v1.8Test4)
+		- Texture change for most fuselage parts
+		- Some models are smoothened (at certain angles, some part no longer have different shines to another part)
+		- New model for J space plane cockpit
+		- Added JQS
+		- Added J Deployment Bay
+		- Added J Inline Docking port (small and large)
 * 2015-0705: 1.7 (K.Yeon) for KSP 0.90
 	+ V1.7
 		- Firespitter not included anymore
