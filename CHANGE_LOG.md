@@ -1,5 +1,20 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2017-0729: 2.0.1 (K.Yeon) for KSP 1.3
+	+ Note that if you are playing a science or career game play, your existing in flight craft will not be affected HOWEVER crafts inside VAB, SPH may show as "this craft contain invalid or locked parts".
+		- You need to research relevant parts in the tech tree to unlock them again.
+		- Sorry for the inconvenience.
+	+ All OPT RCS now has a specific impulse of 350, and they require QUITE SIGNIFICANT AMOUNT OF ELECTRIC CHARGE TO RUN!!! Their technology also moved to Specialized Control (1 tier up).
+	+ Bug fix: Objects attached to the J deployment node are now shielded properly
+	+ OPT J Lab now belongs to Advanced Exploration instead of Supersonic flight.
+	+ OPT H fuselage parts moved to "Advanced Aerodynamics"
+	+ OPT J fuselage parts moved to "Heavy Aerodynamics" (since it's similar size to the Mk3 rather than Mk2)
+	+ Mk2 Ram intake moved to hypersonicFlight
+	+ OPT wing parts technology also moved to "Heavy Aerodynamics"
+	+ J deployment bay moved to "Heavy Aerodynamics"
+	+ OPT Kh moved to experimental Aerodynamics. (K fuselage is still Heavy Aerodynamics) • H_drone moved to large unmanned
+	+ OPT mk2 engine's CoM shifted forward by 1m
+	+ Support for CTT
 * 2017-0725: 2.0 (K.Yeon) for KSP 1.2.2
 	+ OPT v2.0 (for KSP 1.3):
 		- Added several new RCS parts

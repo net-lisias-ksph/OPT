@@ -68,3 +68,31 @@ OPT v1.9.9
 	• Removed fuel options from J boarding ramp
 	• All tanks using real fuel volume increased by 400%
 	• Added nodes to K&KH 6m parts for h fuselage attachment
+
+OPT v2.0.0
+	• Added several new RCS parts
+	• Added IVA for J science lab and H crew cabin.
+	• Fixed JSL, JHT, JQS and KSP IVA windows (was 100% transparent).
+	• Changed KH cargo/fuselage's inner node upward by 0.61, so it's centered for 3.75m parts.
+	• Further reduced lifting body lift value by up to 10%
+	• Cockpit and nose part's lift value reduced by 40%
+	• Fixed h fuselage's lift value (reduced)
+	• Applied all previous bug fix patches (missing h fuselage fuel and missing tech)
+	• Fixed base mass value for MFT (set to -1)
+	• Nebula engine(2.5m engine)'s Centre of Mass shifted forward by 1.5 (since the engine's main body isn't modelled)
+	• Added TACLS for h crew cabins
+	
+OPT v2.0.1
+	• All OPT RCS now has a specific impulse of 350, and they require QUITE SIGNIFICANT AMOUNT OF ELECTRIC CHARGE TO RUN!!! Their technology also moved to Specialized Control (1 tier up).
+	• Bug fix: Objects attached to the J deployment node are now shielded properly
+	• OPT J Lab now belongs to Advanced Exploration instead of Supersonic flight.
+	• OPT H fuselage parts moved to "Advanced Aerodynamics"
+	• OPT J fuselage parts moved to "Heavy Aerodynamics" (since it's similar size to the Mk3 rather than Mk2)
+	• Mk2 Ram intake moved to hypersonicFlight
+	• OPT wing parts technology also moved to "Heavy Aerodynamics"
+	• J deployment bay moved to "Heavy Aerodynamics"
+	• OPT Kh moved to experimental Aerodynamics. (K fuselage is still Heavy Aerodynamics)
+	• H_drone moved to large unmanned
+	• OPT mk2 engine's CoM shifted forward by 1m
+	• Support for CTT
+	
