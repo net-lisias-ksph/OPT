@@ -1,5 +1,17 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2016-1117: 1.9.1 (K.Yeon) for KSP 1.2
+	+ Added J Inline Boarding Ramp, J rear boarding ladder, both have a small IVA (in utility section)
+	+ Added IVA to J-SL, J-HT, J-QS. I wasn't happy with the J crew tank, I will remake it and upload it next patch.
+	+ ASET prop updated to a version updated by forum user veld (color tag fix)
+	+ J Aerospike is now under "OPT Propulsion Science Division" manufacturer tab
+	+ J science lab increased data storage from 500 to 1050
+	+ Module Lifting Surface's drag values corrected
+	+ K Spaceplane cockpit's bulkhead profile changed from 'K' to 'k'
+	+ FSFuelSwitch Mass Discrepancy Error should be fixed
+	+ In parts config file, part's name have been moved to the top.
+	+ Updated firespitter to 7.4.2
+	+ Updated module manager to 2.7.4
 * 2016-1030: 1.9.0 (K.Yeon) for KSP 1.0.4
 	+ OPT 1.9.0:
 		- Increased all liquid fuel tank capacity by 25%
