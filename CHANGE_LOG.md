@@ -1,5 +1,22 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2015-0705: 1.7 (K.Yeon) for KSP 0.90
+	+ V1.7
+		- Firespitter not included anymore
+		- 2 new cockpits
+		- a new control surface (stabilizer type a)
+		- A advanced turboramjet replaced original turboramjet
+		- j and k adaptor plates are replaced by adaptors
+		- Remodelled k fuselages and ARI engine
+		- Rebalanced part's mass and lifting body values
+		- Rebalanced Cost and techtrees
+		- Wing's CoL is offsetted more towards the control surface
+		- Various of minor bug fixes
+		- FAR support
+		- RealFuel Support
+		- KM_gimbal Support
+		- Added some basic IVA
+		- note more detailed UpdateNode can be viewed on forum page72
 * 2015-0517: 1.6.9 (K.Yeon) for KSP 0.7.3
 	+ V1.6.9
 		- Rebalance for v1.0.2

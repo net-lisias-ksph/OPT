@@ -94,3 +94,22 @@ V1.6.9
 	- Added few WIP IVAs
 	- Remodeled wing parts
 	- turboramjet only have 1 mode
+V1.6.9.1
+	- DDS textures
+	- Fixed lab issues
+V1.7
+	-Firespitter not included anymore
+	-2 new cockpits
+	-a new control surface (stabilizer type a)
+	-A advanced turboramjet replaced original turboramjet
+	-j and k adaptor plates are replaced by adaptors
+	-Remodelled k fuselages and ARI engine
+	-Rebalanced part's mass and lifting body values
+	-Rebalanced Cost and techtrees
+	-Wing's CoL is offsetted more towards the control surface
+	-Various of minor bug fixes
+	-FAR support
+	-RealFuel Support
+	-KM_gimbal Support
+	-Added some basic IVA
+	*note more detailed UpdateNode can be viewed on forum page72

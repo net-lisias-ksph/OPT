@@ -2,13 +2,13 @@
 	i.e. X:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program
 
 2	Go into GameData folder Check if there is a [folder] named 
-	[Firespitter] or [OPT] or the file [ModuleManager X.X.X.dll]
+	[OPT] or the file [ModuleManager X.X.X.dll]
 	if yes delete all of them
 
 3	Go into Ships\SPH\ check if theres any previous crafts from OPT,
 	if yes delete them
 
-5	Unzip or go into your downloaded file [OPTV1.6.9]
+5	Unzip or go into your downloaded file [OPTV1.7]
 
 6	Copy [GameData] and [Ships] into your KSP install location 
 	i.e. X:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program
