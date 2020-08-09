@@ -1,5 +1,28 @@
 # Orbit Portal Technology [OPT] Spaceplane Parts :: Change Log
 
+* 2016-1215: 1.9.2 (K.Yeon) for KSP 1.2
+	+ OPT v1.9.2
+		- Added K 3m Fueltank
+		- Added K to Tri 2.5m Engine Mount
+		- Added K Space Plane Cockpit's IVA
+		- Fixed missing collider for J service bay
+		- Fixed unable to EVA from boarding ramp
+		- Fixed OPT large, huge pylon and stabilizer a and b's lifting value, they now produce the correct lift (about 3 times more)
+		- Added correct drag cube to: J deployment bay, J Cargo Bay, J Service Bay, K Hollow fuselage, K Cargo Bay (this should lower lot's of incorrect drag in some cases)
+		- All Cargo bay's lookup radius increased slightly to cover the corners in the cargo bay.
+		- Modified K Rear Cargo Ramp's colliders to be less bumpy
+		- Fixed "play animation automatically" that caused cargo bays to not shield items inside at launch.
+		- Added a dummy animation to K hollow fuselage parts, they now uses module cargo bay and shields stuff inside properly.
+		- Removed J-SL cockpit's 40 mono propellant
+		- Fixed K Cockpit's mesh, (above the middle windshield, the mesh was extruding inward)
+		- J-SL cockpit now have a pair of built in retrograde RCS thrusters
+			- should be pretty useful I might consider adding them to other
+	+ cockpits
+		- Stabilizer a and b's max actuation angle lowered from 30 to 20
+		- Stock aircraft Balari V SSTO reconfigured slightly (fuel tank positions), should improve flying when gliding with empty fuel tanks, as well as increased delta V.
+		- J Aerospike's mass increased from 1.21 to 7.26; cost increased from 9k to 11k; ISP at ground reduced from 390 to 380, ISP in space reduced from 420 to 390;
+		- OPT's J and K fuselage's lift value rebalanced, j fuselage lift increased by 16%, k fuselage lift increased by 83%.
+		- J and K fuselage parts mass increased; J by 10%, K by 20%;
 * 2016-1117: 1.9.1 (K.Yeon) for KSP 1.2
 	+ Added J Inline Boarding Ramp, J rear boarding ladder, both have a small IVA (in utility section)
 	+ Added IVA to J-SL, J-HT, J-QS. I wasn't happy with the J crew tank, I will remake it and upload it next patch.

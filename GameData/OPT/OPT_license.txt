@@ -1,10 +1,9 @@
-Title: OPT Space Plane Parts V1.9.1
+Title: OPT Space Plane Parts V1.9.2
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Credits:
 Creator: K.Yeon
-Maintenance/testing team: stali79, Spanksh, M_Ouellette, Mycroft, Starwaster, Stone Blue
 
 Included Plugins:
 Module Manager, by forum user sarbian
