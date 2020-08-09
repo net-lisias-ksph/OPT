@@ -1,16 +1,23 @@
-# Orbit Portal Technology [OPT] Spaceplane Parts Streamlined/Continued:: UNOFFICIAL
+# Orbit Portal Technology [OPT] Spaceplane Parts :: UNOFFICIAL
 
 This is a unofficial, non authorized repository for **Orbit Portal Technology [OPT] Spaceplane Parts Streamlined/Continued** for historical reference and troubleshooting.
 
-Includes Legacy, Reconfig and Continued.
+Includes Classic, Legacy, Reconfig and Continued.
 
 
 ## In a Hurry
 
-* [Binaries](https://github.com/net-lisias-ksph/OPT/tree/Archive)
+* Binaries
+	+ [Classic](https://github.com/net-lisias-ksph/OPT/tree/Archive/Classic)
+	+ [Legacy](https://github.com/net-lisias-ksph/OPT/tree/Archive/Legacy)
+	+ [Reconfig](https://github.com/net-lisias-ksph/OPT/tree/Archive/Reconfig)
+	+ [Continued](https://github.com/net-lisias-ksph/OPT/tree/Archive/Continued)
 * Sources
-	+ WiP
-* [Change Log](./CHANGE_LOG.md)
+	+ [Classic](https://github.com/net-lisias-ksph/OPT/tree/Source/Classic)
+	+ [Legacy](https://github.com/net-lisias-ksph/OPT/tree/upstream/legacy/Legacy)
+	+ [Reconfig & Continued](https://github.com/net-lisias-ksph/OPT/tree/upstream/streamlined/Reconfig)
+* Change Log
+	- See the respective binary/source branches. 
 
 
 ## Description
@@ -20,9 +27,10 @@ Orbit Portal Technology [OPT] is a Research and Development company dedicated to
 
 ## License
 
-The following components of this work are https://creativecommons.org/licenses/by-nc-sa/4.0/) License. 
+Unless explicitly stated otherwise, the following components of this work are https://creativecommons.org/licenses/by-nc-sa/4.0/) License. 
 
 * Orbit Portal Technology [OPT] Spaceplane Parts
+* OPT Legacy
 * OPT Reconfig
 * OPT Spaceplane Continued
 
@@ -43,8 +51,21 @@ By using this repository without the required pre-requisites, I hold you liable 
 
 ## References
 
-* [JadeOfMaar](https://forum.kerbalspaceprogram.com/index.php?/profile/167617-jadeofmaar/) CURRENT
-	+ [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/196187-191-opt-spaceplane-continued-21-aug-08-2020/)
-	+ [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/173833-191-opt-legacy-211-reconfig-21-aug-07-2020/) (Legacy/Reconfig)
-	+ [SpaceDock](https://spacedock.info/mod/2494/OPT%20Spaceplane%20Continued)
+* [K.Yeon](https://forum.kerbalspaceprogram.com/index.php?/profile/126102-kyeon/) ROOT
+	+ [Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/87956-130-opt-space-plane-v201-updated-29072017/)
+	+ [Spacedock](https://spacedock.info/mod/1028/OPT%20Space%20Plane)
+	+ [Curseforge](https://www.curseforge.com/kerbal/ksp-mods/opt-space-plane-parts-v2-0/) 
+	+ imgur
+		- [OPT Screenshots](https://imgur.com/a/AdHWN)
+		- [KSP OPT Community Gallery](https://imgur.com/a/emOCt)
+		- [Release Banners](https://imgur.com/a/IGAQi)
+* [JadeOfMaar](https://forum.kerbalspaceprogram.com/index.php?/topic/196187-191-opt-spaceplane-continued-21-aug-08-2020/) CURRENT
+	+ Continued:
+		- [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/196187-191-opt-spaceplane-continued-21-aug-08-2020/)
+		- [Spacedock](https://spacedock.info/mod/2494/OPT%20Spaceplane%20Continued)
+	+ Legacy:
+		- [KSP Forum](https://forum.kerbalspaceprogram.com/index.php?/topic/173833-191-opt-legacy-211-reconfig-21-aug-07-2020/)
+		- [Spacedock](https://spacedock.info/mod/711/Orbit%20Portal%20Technology%20%5BOPT%5D%20Spaceplane%20Parts)
+	+ Reconfig:
+		- [Spacedock](https://spacedock.info/mod/1808/OPT%20Reconfig) 
 	+ [GitHub](https://github.com/StoneBlue/OPT_Streamlined/)
