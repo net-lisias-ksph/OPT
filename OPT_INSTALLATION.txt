@@ -1,0 +1,23 @@
+1	Go to your KSP install location 
+	i.e. X:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program
+
+2	Go into GameData folder Check if there is a [folder] named 
+	[Firespitter] or [OPT] or the file [ModuleManager.2.5.x.dll]
+	if yes delete all of them
+
+3	Go into Ships\SPH\ check if theres any previous crafts from OPT,
+	if yes delete them
+
+5	Unzip or go into your downloaded file [OPTV1.6]
+
+6	Copy [GameData] and [Ships] into your KSP install location 
+	i.e. X:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program
+
+7	Play KSP!
+
+8	Like this mod on curse http://www.curse.com/ksp-mods/kerbal/225018-opt-space-plane-parts
+	or Follow this mod on KerbalStuff https://kerbalstuff.com/mod/340/OPT%20Space%20Plane%20Parts
+
+9	Leave A comment or suggestion on this mod's forum http://forum.kerbalspaceprogram.com/threads/97525-0-90-WIP-DEV-OPT-V1-5-Mk3-Space-Shuttle-Expansions?p=1490754#post1490754
+
+Thanks!
